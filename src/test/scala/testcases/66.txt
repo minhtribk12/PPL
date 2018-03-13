@@ -1,0 +1,1 @@
+boolean ba[5]; // a variable of type array on boolean 

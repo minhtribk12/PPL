@@ -1,0 +1,36 @@
+compile
+test
+compile
+test
+testOnly "ParserSuite"
+testOnly ParserSuite
+compile
+test
+run -draw src/test/scala/testcase/101.txt
+run -draw src/test/scala/testcases/101.txt
+run -lex src/test/scala/testcases/101.txt
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test

@@ -1,0 +1,7 @@
+boolean
+ba
+[
+5
+]
+;
+<EOF>

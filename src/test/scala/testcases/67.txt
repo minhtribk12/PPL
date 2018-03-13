@@ -1,0 +1,1 @@
+int ia[3]; // a variable of type array on int 

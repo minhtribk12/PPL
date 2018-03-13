@@ -1,0 +1,1 @@
+int child_of_foo(float f ){} //ERROR
