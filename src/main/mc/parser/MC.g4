@@ -61,11 +61,11 @@ primitivetype: INTTYPE | FLOATTYPE | BOOLTYPE | STRINGTYPE ;
 
 varlist: varname (CM varname)* ;
 
-varname: ID (LSB UNSIGNINT RSB)? ;
+varname: ID (LSB INTLIT RSB)? ;
 
 funcdecl: functype ID LB paralist RB block ;
 
-functype: (primitivetype (LB RB)?) | VOIDTYPE ;
+functype: (primitivetype (LSB RSB)?) | VOIDTYPE ;
 
 paralist: (paradecl (CM paradecl )*)? ;
 
@@ -79,7 +79,7 @@ declpart: vardecl* ;
 
 stmtpart: stmt* ;
 
-stmt: ifstmt | whilestmt | forstmt | breakstmt | continuestmt | returnstmt | (expression SEMI) | block ;
+stmt: ifstmt | whilestmt | forstmt | breakstmt | continuestmt | returnstmt | expression SEMI | block ;
 
 ifstmt: ifelse | ifnoelse ;
 
@@ -99,6 +99,7 @@ returnstmt: RETURN SEMI | RETURN expression SEMI ;
 
 expression: LB expression RB
         |   ID LSB expression RSB
+        |   expression LSB expression RSB
         |   <assoc=right> (SUB|NOT) expression
         |   <assoc=left> expression (DIV | MUL | MOL) expression
         |   <assoc=left> expression (ADD | SUB) expression
@@ -106,11 +107,11 @@ expression: LB expression RB
         |   naexpression (EQ | NEQ) naexpression
         |   <assoc=left> expression AND expression
         |   <assoc=left> expression OR expression
-        |   <assoc=right> expression ASSIGN expression
+        |   <assoc=right> expression ASSIGN expression 
         |   operand
         ;
 
-naexpression: LB naexpression RB
+naexpression: LB expression RB
         |   ID LSB naexpression RSB
         |   <assoc=right> (SUB|NOT) naexpression
         |   <assoc=left> naexpression (DIV | MUL | MOL) naexpression
@@ -131,8 +132,6 @@ funcall: ID LB arglist RB ;
 
 arglist: (expression (CM expression)*)?;
 
-UNSIGNINT: [1-9]DIGIT*;
-
 LSB: '[' ;
 
 RSB: ']' ;
@@ -147,11 +146,11 @@ BOOLTYPE: 'boolean' ;
 
 INTTYPE: 'int' ;
 
-INTLIT: '-'?[1-9]DIGIT* | '0' ;
+INTLIT: '-'?DIGIT+ ;
 
 FLOATTYPE: 'float' ;
 
-FLOATLIT: FLOATDIGIT EXP?;
+FLOATLIT: FLOATDIGIT EXP? | '-'?DIGIT+EXP;
 
 fragment EXP: [eE]INTLIT; //notice 1e01
 
@@ -161,7 +160,7 @@ fragment DIGIT: [0-9] ;
 
 STRINGTYPE: 'string';
 
-STRINGLIT: '"' ('\\'[bfrnt'"\\] | ~[\\\r\n"])* '"';
+STRINGLIT: '"' ( ('\\'[bfrnt'"\\] ) | (~[\r\n"\\]) )* '"';
 
 VOIDTYPE: 'void' ;
 
@@ -229,10 +228,10 @@ ID: [_a-zA-Z][_a-zA-Z0-9]* ;
 
 WS : [ \t\r\n]+ -> skip ; // skip spaces, tabs, newlines
 
-ILLEGAL_ESCAPE: '"' (NOTESCAPE '\\' (~[bfrnt'"\\])*  (~[\n\r])*)+ '"';
+ILLEGAL_ESCAPE: '"' (NOTESCAPE? '\\' (~[bfrnt'"\\])  NOTESCAPE?)+ '"';
 
 fragment NOTESCAPE: (~[\n\r])* ;
 
-UNCLOSE_STRING: '"' (~('"'))* EOF ;
+UNCLOSE_STRING: '"' (('\\''"') | ~('"'))* EOF ;
 
 ERROR_CHAR: .;

@@ -1,1 +1,1 @@
-ﬂoat f; // a variable of type ﬂoat 
+float f; // a variable of type ﬂoat 

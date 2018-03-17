@@ -1,1 +1,6 @@
-int main () {}
+
+			int a;
+			void foo(){
+			}
+			float a;
+		

@@ -1,2 +1,2 @@
-sdadg
-ErrorToken `
+"sdadg` !@#$%^&*()\""
+<EOF>

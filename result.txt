@@ -1,9 +1,4 @@
 Run starting. Expected test count is: 0
-ParserSuite:
-- a simple program
-- more complex program *** FAILED ***
-  ParserSuite.this.checkRec(input, expect, 102) was false (ParserSuite.scala:18)
-- wrong program
 LexerSuite:
 - Blank characters1
 - Block comment
@@ -26,33 +21,22 @@ LexerSuite:
 - Keywords6
 - Operators1
 - Separators1
-- Int literals1 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 22) was false (LexerSuite.scala:116)
-- Int literals2 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 23) was false (LexerSuite.scala:121)
+- Int literals1
+- Int literals2
 - Float literals1
 - Float literals2
-- Float literals3 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 26) was false (LexerSuite.scala:136)
-- Float literals4 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 27) was false (LexerSuite.scala:141)
-- Float literals5 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 28) was false (LexerSuite.scala:146)
+- Float literals3
+- Float literals4
+- Float literals5
 - Float literals6
 - Float literals7
-- Float literals8 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 31) was false (LexerSuite.scala:161)
-- Float literals9 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 32) was false (LexerSuite.scala:166)
-- Float literals10 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 33) was false (LexerSuite.scala:171)
-- Float literals11 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 34) was false (LexerSuite.scala:176)
-- Float literals12 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 35) was false (LexerSuite.scala:181)
+- Float literals8
+- Float literals9
+- Float literals10
+- Float literals11
+- Float literals12
 - String literals1
-- String literals2 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 37) was false (LexerSuite.scala:191)
+- String literals2
 - String literals3
 - String literals4
 - Error tokens1
@@ -63,26 +47,16 @@ LexerSuite:
 - Error tokens6
 - Error tokens7
 - Error tokens8
-- Unclosed String1 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 48) was false (LexerSuite.scala:246)
-- Unclosed String2 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 49) was false (LexerSuite.scala:251)
-- Unclosed String3 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 50) was false (LexerSuite.scala:256)
-- Unclosed String4 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 51) was false (LexerSuite.scala:261)
-- Unclosed String5 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 52) was false (LexerSuite.scala:266)
-- Unclosed String6 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 53) was false (LexerSuite.scala:271)
-- Illegal escape in string1 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 54) was false (LexerSuite.scala:276)
-- Illegal escape in string2 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 55) was false (LexerSuite.scala:281)
-- Illegal escape in string3 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 56) was false (LexerSuite.scala:286)
-- Illegal escape in string4 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 57) was false (LexerSuite.scala:291)
+- Unclosed String1
+- Unclosed String2
+- Unclosed String3
+- Unclosed String4
+- Unclosed String5
+- Unclosed String6
+- Illegal escape in string1
+- Illegal escape in string2
+- Illegal escape in string3
+- Illegal escape in string4
 - Other1
 - Other2
 - Other3
@@ -90,37 +64,30 @@ LexerSuite:
 - Other5
 - Other6
 - Other7
-- Other8 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 65) was false (LexerSuite.scala:331)
+- Other8
 - Other9
 - Other10
-- Other11 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 68) was false (LexerSuite.scala:346)
+- Other11
 - Other12
-- Other13 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 70) was false (LexerSuite.scala:356)
+- Other13
 - Other14
 - Other15
 - Other16
 - Other17
 - Other18
 - Other19
-- Other20 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 77) was false (LexerSuite.scala:391)
+- Other20
 - Other21
 - Other22
 - Other23
-- Other24 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 81) was false (LexerSuite.scala:411)
+- Other24
 - Other25
 - Other26
 - Other27
 - Other28
-- Other29 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 86) was false (LexerSuite.scala:436)
+- Other29
 - Other30
-- Other31 *** FAILED ***
-  LexerSuite.this.checkLex(input, expected, 88) was false (LexerSuite.scala:446)
+- Other31
 - Keywords10
 - Keywords11
 - Keywords12
@@ -133,8 +100,61 @@ LexerSuite:
 - Keywords19
 - Keywords20
 - Keywords21
-Run completed in 1 second, 230 milliseconds.
-Total number of tests run: 103
+ParserSuite:
+- a simple program
+- more complex program
+- wrong program
+- Program contains declarations
+- Program contains declarations 2
+- Program contains declarations 3
+- Program contains declarations 4
+- Variable declarations
+- Variable declarations 2
+- Variable declarations 3
+- Variable declarations 4
+- Function declarations
+- Function declarations 2
+- Function declarations 3
+- Function declarations 4
+- Nested function
+- Primitive type
+- Void type
+- Void type error
+- Array type
+- Array type int error
+- Array pointer type
+- Array pointer type error
+- Array pointer type error 2
+- Variable initialization
+- Variable initialization 2
+- Expression: OR
+- Expression: AND
+- Expression: GREATER
+- Expression: GREATER 2
+- Expression: LESS
+- Expression: LESS 2
+- Expression: GREATER ERROR
+- Expression: ADD SUBTRACT
+- Expression: MUL DIVIDE
+- Expression: MIXED
+- Expression: UNARY
+- Expression: EQUAL
+- Expression: EQUAL ERROR
+- Expression: EQUAL 2
+- Expression: INDEX
+- Expression: INDEX 2
+- Expression: INDEX 3
+- Expression: INDEX 4
+- Expression: INVOCATION
+- Expression: INVOCATION 2
+- Expression: PARAMETER 3
+- Expression: INVOCATION 4
+- Expression: INVOCATION 5
+- Expression: INVOCATION 6
+- Expression: INVOCATION 7
+- Expression: INVOCATION 8
+Run completed in 1 second, 225 milliseconds.
+Total number of tests run: 152
 Suites: completed 2, aborted 0
-Tests: succeeded 74, failed 29, canceled 0, ignored 0, pending 0
-*** 29 TESTS FAILED ***
+Tests: succeeded 152, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.

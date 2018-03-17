@@ -132,12 +132,12 @@ assert(checkLex(input,expected,25))
 }
 test("Float literals3") {
 val input ="0.012E"
-val expected ="0.012E,<EOF>"
+val expected ="0.012,E,<EOF>"
 assert(checkLex(input,expected,26))
 }
 test("Float literals4") {
 val input ="0.012E-"
-val expected ="0.012E,-,<EOF>"
+val expected ="0.012,E,-,<EOF>"
 assert(checkLex(input,expected,27))
 }
 test("Float literals5") {
@@ -156,13 +156,13 @@ val expected =".012,<EOF>"
 assert(checkLex(input,expected,30))
 }
 test("Float literals8") {
-val input =".012E"
-val expected =".012E,<EOF>"
+val input =".012E-234.4"
+val expected =".012E-234,.4,<EOF>"
 assert(checkLex(input,expected,31))
 }
 test("Float literals9") {
 val input =".012E-"
-val expected =".012E,-,<EOF>"
+val expected =".012,E,-,<EOF>"
 assert(checkLex(input,expected,32))
 }
 test("Float literals10") {
@@ -186,8 +186,8 @@ val expected =""""acb",<EOF>"""
 assert(checkLex(input,expected,36))
 }
 test("String literals2") {
-val input ="sdadg` !@#$%^&*()"
-val expected ="sdadg` !@#$%^&*(),<EOF>"
+val input =""""sdadg` !@#$%^&*()\"""""
+val expected =""""sdadg` !@#$%^&*()\"",<EOF>"""
 assert(checkLex(input,expected,37))
 }
 test("String literals3") {
@@ -242,52 +242,52 @@ assert(checkLex(input,expected,47))
 }
 test("Unclosed String1") {
 val input ="""""""
-val expected ="""Unclosedstring: """"
+val expected ="""Unclosed string: """"
 assert(checkLex(input,expected,48))
 }
 test("Unclosed String2") {
 val input =""""\""""
-val expected ="""Unclosedstring: "\""""
+val expected ="""Unclosed string: "\""""
 assert(checkLex(input,expected,49))
 }
 test("Unclosed String3") {
 val input =""""\""""""
-val expected ="""Unclosedstring: """"
+val expected =""""\"",Unclosed string: """"
 assert(checkLex(input,expected,50))
 }
 test("Unclosed String4") {
 val input =""""@$%^&*"""
-val expected ="""Unclosedstring: "@$%^&*"""
+val expected ="""Unclosed string: "@$%^&*"""
 assert(checkLex(input,expected,51))
 }
 test("Unclosed String5") {
-val input =""""'""""
-val expected ="""Unclosedstring: """"
+val input =""""'"""""
+val expected =""""'",Unclosed string: """"
 assert(checkLex(input,expected,52))
 }
 test("Unclosed String6") {
 val input =""""ABC \\\"\""""
-val expected ="""Unclosedstring: "ABC \\\"\""""
+val expected ="""Unclosed string: "ABC \\\"\""""
 assert(checkLex(input,expected,53))
 }
 test("Illegal escape in string1") {
 val input =""""\a""""
-val expected ="""Illegal escape in string: "\a"""
+val expected ="""Illegal escape in string: "\a""""
 assert(checkLex(input,expected,54))
 }
 test("Illegal escape in string2") {
 val input =""""\\\q""""
-val expected ="""Illegal escape in string: "\\\q"""
+val expected ="""Illegal escape in string: "\\\q""""
 assert(checkLex(input,expected,55))
 }
 test("Illegal escape in string3") {
 val input =""""== a + b \k""""
-val expected ="""Illegal escape in string: "== a + b \k"""
+val expected ="""Illegal escape in string: "== a + b \k""""
 assert(checkLex(input,expected,56))
 }
 test("Illegal escape in string4") {
 val input =""""== a + b [] {} \" \k""""
-val expected ="""Illegal escape in string: "== a + b [] {} \" \k"""
+val expected ="""Illegal escape in string: "== a + b [] {} \" \k""""
 assert(checkLex(input,expected,57))
 }
 test("Other1") {
@@ -326,8 +326,8 @@ val expected ="int,i,;,<EOF>"
 assert(checkLex(input,expected,64))
 }
 test("Other8") {
-val input ="ﬂoat f; // a variable of type ﬂoat "
-val expected ="ﬂoat,f,;,<EOF>"
+val input ="float f; // a variable of type ﬂoat "
+val expected ="float,f,;,<EOF>"
 assert(checkLex(input,expected,65))
 }
 test("Other9") {
@@ -341,8 +341,8 @@ val expected ="int,ia,[,3,],;,<EOF>"
 assert(checkLex(input,expected,67))
 }
 test("Other11") {
-val input ="ﬂoat fa[100]; // a variable of type array on ﬂoat "
-val expected ="ﬂoat,fa,[,100,],;,<EOF>"
+val input ="float fa[100]; // a variable of type array on ﬂoat "
+val expected ="float,fa,[,100,],;,<EOF>"
 assert(checkLex(input,expected,68))
 }
 test("Other12") {
@@ -351,8 +351,8 @@ val expected ="int,i,=,5,;,<EOF>"
 assert(checkLex(input,expected,69))
 }
 test("Other13") {
-val input ="ﬂoat f[]; //must have size => ﬂoat f[5]; "
-val expected ="ﬂoat,f,[,],;,<EOF>"
+val input ="float f[]; //must have size => ﬂoat f[5]; "
+val expected ="float,f,[,],;,<EOF>"
 assert(checkLex(input,expected,70))
 }
 test("Other14") {
@@ -387,11 +387,11 @@ assert(checkLex(input,expected,76))
 }
 test("Other20") {
 val input ="else return b; //CORRECT"
-val expected ="else,return ,b,;,<EOF>"
+val expected ="else,return,b,;,<EOF>"
 assert(checkLex(input,expected,77))
 }
 test("Other21") {
-val input ="main = f = i = 100; "
+val input ="main = f = i = 100; //abc "
 val expected ="main,=,f,=,i,=,100,;,<EOF>"
 assert(checkLex(input,expected,78))
 }

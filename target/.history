@@ -34,3 +34,175 @@ compile
 test
 compile
 test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+ls
+run -draw ./src/test/scala/testcase/102.txt
+exit
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+run -lex ./src/test/scala/testcases/102.txt
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+run -draw ./src/test/scala/testcases/102.txt
+compile
+test
+run -draw ./src/test/scala/testcases/115.txt
+test
+run -draw ./src/test/scala/testcases/115.txt
+test
+run -draw ./src/test/scala/testcases/117.txt
+test
+run -draw ./src/test/scala/testcases/117.txt
+test
+compile
+test
+compile
+test
+run -draw ./src/test/scala/testcases/142.txt
+compile
+test
+compile
+test
+run -draw ./src/test/scala/testcases/142.txt
+compile
+test

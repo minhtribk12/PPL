@@ -1,1 +1,7 @@
-ErrorToken ﬂ
+float
+fa
+[
+100
+]
+;
+<EOF>

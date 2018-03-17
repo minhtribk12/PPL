@@ -1,1 +1,1 @@
-ﬂoat fa[100]; // a variable of type array on ﬂoat 
+float fa[100]; // a variable of type array on ﬂoat 
