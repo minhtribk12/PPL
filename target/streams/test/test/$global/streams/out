@@ -1,10 +1,12 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ParserSuite, org.scalatest.tools.Framework$$anon$1@a0591b3, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(LexerSuite, org.scalatest.tools.Framework$$anon$1@a0591b3, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 225 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 152[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 152, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ParserSuite, org.scalatest.tools.Framework$$anon$1@6e15561b, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AstSuite, org.scalatest.tools.Framework$$anon$1@6e15561b, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(LexerSuite, org.scalatest.tools.Framework$$anon$1@6e15561b, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 667 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 203[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 203, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AstSuite[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ParserSuite[0m
 [0m[[0m[0mdebug[0m] [0m[0m	LexerSuite[0m

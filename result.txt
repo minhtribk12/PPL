@@ -1,6 +1,10 @@
 Run starting. Expected test count is: 0
+AstSuite:
+- a simple program with void as return type of main
+- another simple program with int as return type of main
+- a simple program has a simple call putIntLn
 LexerSuite:
-- Blank characters1
+- Blank characters 1
 - Block comment
 - Block comment 2
 - Block comment 3
@@ -8,102 +12,99 @@ LexerSuite:
 - Line comment 2
 - Block comment4
 - Block comment5
-- Identifiers1
-- Identifiers2
-- Identifiers3
-- Identifiers4
-- Identifiers5
-- Keywords1
-- Keywords2
-- Keywords3
-- Keywords4
-- Keywords5
-- Keywords6
-- Operators1
-- Separators1
-- Int literals1
-- Int literals2
-- Float literals1
-- Float literals2
-- Float literals3
-- Float literals4
-- Float literals5
-- Float literals6
-- Float literals7
-- Float literals8
-- Float literals9
-- Float literals10
-- Float literals11
-- Float literals12
-- String literals1
-- String literals2
-- String literals3
-- String literals4
-- Error tokens1
-- Error tokens2
-- Error tokens3
-- Error tokens4
-- Error tokens5
-- Error tokens6
-- Error tokens7
-- Error tokens8
-- Unclosed String1
-- Unclosed String2
-- Unclosed String3
-- Unclosed String4
-- Unclosed String5
-- Unclosed String6
+- Identifiers 1
+- Identifiers 2
+- Identifiers 3
+- Identifiers 4
+- Identifiers 5
+- Keywords 1
+- Keywords 2
+- Keywords 3
+- Keywords 4
+- Keywords 5
+- Keywords 6
+- Operators 1
+- Separators 1
+- Int literals 1
+- Int literals 2
+- Float literals 1
+- Float literals 2
+- Float literals 3
+- Float literals 4
+- Float literals 5
+- Float literals 6
+- Float literals 7
+- Float literals 8
+- Float literals 9
+- Float literals 10
+- Float literals 11
+- Float literals 12
+- String literals 1
+- String literals 2
+- String literals 3
+- String literals 4
+- Error tokens 1
+- Error tokens 2
+- Error tokens 3
+- Error tokens 4
+- Error tokens 5
+- Error tokens 6
+- Error tokens 7
+- Error tokens 8
+- Unclosed String 1
+- Unclosed String 2
+- Unclosed String 3
+- Unclosed String 4
+- Unclosed String 5
+- Unclosed String 6
 - Illegal escape in string1
-- Illegal escape in string2
-- Illegal escape in string3
-- Illegal escape in string4
-- Other1
-- Other2
-- Other3
-- Other4
-- Other5
-- Other6
-- Other7
-- Other8
-- Other9
-- Other10
-- Other11
-- Other12
-- Other13
-- Other14
-- Other15
-- Other16
-- Other17
-- Other18
-- Other19
-- Other20
-- Other21
-- Other22
-- Other23
-- Other24
-- Other25
-- Other26
-- Other27
-- Other28
-- Other29
-- Other30
-- Other31
-- Keywords10
-- Keywords11
-- Keywords12
-- Keywords13
-- Keywords14
-- Keywords15
-- Keywords16
-- Keywords17
-- Keywords18
-- Keywords19
-- Keywords20
-- Keywords21
+- Illegal escape in string 2
+- Illegal escape in string 3
+- Illegal escape in string 4
+- combine 1
+- combine 2
+- combine 3
+- combine 4
+- combine 5
+- combine 6
+- combine 7
+- combine 8
+- combine 9
+- combine 10
+- combine 11
+- combine 12
+- combine 13
+- combine 14
+- combine 15
+- combine 16
+- combine 17
+- combine 18
+- combine 19
+- combine 20
+- combine 21
+- combine 22
+- combine 23
+- combine 24
+- combine 25
+- combine 26
+- combine 27
+- combine 28
+- combine 29
+- combine 30
+- combine 31
+- Keywords 10
+- Keywords 11
+- Keywords 12
+- Keywords 13
+- Keywords 14
+- Keywords 15
+- Keywords 16
+- Keywords 17
+- Keywords 18
+- Keywords 19
+- Keywords 20
+- Keywords 21
 ParserSuite:
-- a simple program
-- more complex program
-- wrong program
 - Program contains declarations
 - Program contains declarations 2
 - Program contains declarations 3
@@ -119,6 +120,7 @@ ParserSuite:
 - Nested function
 - Primitive type
 - Void type
+- PARAMETER error
 - Void type error
 - Array type
 - Array type int error
@@ -147,14 +149,64 @@ ParserSuite:
 - Expression: INDEX 4
 - Expression: INVOCATION
 - Expression: INVOCATION 2
-- Expression: PARAMETER 3
 - Expression: INVOCATION 4
 - Expression: INVOCATION 5
 - Expression: INVOCATION 6
 - Expression: INVOCATION 7
 - Expression: INVOCATION 8
-Run completed in 1 second, 225 milliseconds.
-Total number of tests run: 152
-Suites: completed 2, aborted 0
-Tests: succeeded 152, failed 0, canceled 0, ignored 0, pending 0
+- a simple program
+- Statement: If-noelse
+- Statement: If-else
+- Statement: If-else 2
+- Statement: do while
+- Statement: do while 2
+- Statement: for
+- Statement: for 2
+- Statement: break
+- Statement: break 2
+- Statement: continue
+- Statement: continue 2
+- Statement: return
+- Statement: return 2
+- Statement: return 3
+- Statement: expression
+- Statement: expression 1
+- Statement: expression 2
+- Statement: expression 3
+- Statement: block
+- Statement: block 2
+- Statement: block 3
+- Statement: block 4
+- Stament: mixed
+- mixed
+- mixed 2
+- mixed 3
+- mixed 4
+- mixed 5
+- mixed 6
+- mixed 7
+- mixed 8
+- mixed 9
+- mixed 10
+- mixed 11
+- mixed 12
+- mixed 13
+- mixed 14
+- mixed 15
+- mixed 16
+- mixed 17
+- Statement: do while error
+- Statement before declare
+- more complex program
+- wrong program
+- Function and variable declarations 1
+- Function and variable declarations 2
+- Function and variable declarations 3
+- Function and variable declarations error 1
+- Function and variable declarations error 2
+- Function and variable declarations error 3
+Run completed in 2 seconds, 667 milliseconds.
+Total number of tests run: 203
+Suites: completed 3, aborted 0
+Tests: succeeded 203, failed 0, canceled 0, ignored 0, pending 0
 All tests passed.

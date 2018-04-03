@@ -31,12 +31,6 @@ public interface MCVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitVardecl(MCParser.VardeclContext ctx);
 	/**
-	 * Visit a parse tree produced by {@link MCParser#vartype}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitVartype(MCParser.VartypeContext ctx);
-	/**
 	 * Visit a parse tree produced by {@link MCParser#primitivetype}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
@@ -121,6 +115,12 @@ public interface MCVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitIfelse(MCParser.IfelseContext ctx);
 	/**
+	 * Visit a parse tree produced by {@link MCParser#stmtif}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitStmtif(MCParser.StmtifContext ctx);
+	/**
 	 * Visit a parse tree produced by {@link MCParser#ifnoelse}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
@@ -174,12 +174,6 @@ public interface MCVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitOperand(MCParser.OperandContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link MCParser#variable}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitVariable(MCParser.VariableContext ctx);
 	/**
 	 * Visit a parse tree produced by {@link MCParser#literal}.
 	 * @param ctx the parse tree

@@ -40,13 +40,6 @@ public class MCBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements MCV
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitVartype(MCParser.VartypeContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
 	@Override public T visitPrimitivetype(MCParser.PrimitivetypeContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
@@ -145,6 +138,13 @@ public class MCBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements MCV
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
+	@Override public T visitStmtif(MCParser.StmtifContext ctx) { return visitChildren(ctx); }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation returns the result of calling
+	 * {@link #visitChildren} on {@code ctx}.</p>
+	 */
 	@Override public T visitIfnoelse(MCParser.IfnoelseContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
@@ -202,13 +202,6 @@ public class MCBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements MCV
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
 	@Override public T visitOperand(MCParser.OperandContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
-	@Override public T visitVariable(MCParser.VariableContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *

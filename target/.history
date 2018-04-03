@@ -206,3 +206,46 @@ test
 run -draw ./src/test/scala/testcases/142.txt
 compile
 test
+compile
+test
+run -draw ./src/test/scala/testcases/154.txt
+test
+compile
+test
+run -draw ./src/test/scala/testcases/159.txt
+run -lex ./src/test/scala/testcases/159.txt
+run -draw ./src/test/scala/testcases/159.txt
+run -lex ./src/test/scala/testcases/159.txt
+test
+run -draw ./src/test/scala/testcases/159.txt
+test
+run -draw ./src/test/scala/testcases/159.txt
+test
+run -draw ./src/test/scala/testcases/159.txt
+test
+compile
+test
+compile
+test
+run -lex ./src/test/scala/testcases/50.txt
+run -lex ./src/test/scala/testcases/52.txt
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+clean
+compile
+test
+run -lex ./src/test/scala/testcases/201.txt
+run -draw ./src/test/scala/testcases/201.txt
+test
+run -draw ./src/test/scala/testcases/201.txt
+run -draw ./src/test/scala/testcases/203.txt
+test
+clean
+compile
+test

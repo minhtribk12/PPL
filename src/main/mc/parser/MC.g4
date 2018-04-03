@@ -53,9 +53,7 @@ program: declaration+ ;
 
 declaration: vardecl | funcdecl ;
 
-vardecl: vartype varlist SEMI ;
-
-vartype: primitivetype ; 
+vardecl: primitivetype varlist SEMI ;
 
 primitivetype: INTTYPE | FLOATTYPE | BOOLTYPE | STRINGTYPE ;
 
@@ -83,7 +81,9 @@ stmt: ifstmt | whilestmt | forstmt | breakstmt | continuestmt | returnstmt | exp
 
 ifstmt: ifelse | ifnoelse ;
 
-ifelse: IF LB expression RB stmt ELSE stmt ;
+ifelse: IF LB expression RB stmtif ELSE stmt ;
+
+stmtif: ifelse | whilestmt | forstmt | breakstmt | continuestmt | returnstmt | expression SEMI | block ;
 
 ifnoelse: IF LB expression RB stmt ;
 
@@ -113,6 +113,7 @@ expression: LB expression RB
 
 naexpression: LB expression RB
         |   ID LSB naexpression RSB
+        |   naexpression LSB naexpression RSB
         |   <assoc=right> (SUB|NOT) naexpression
         |   <assoc=left> naexpression (DIV | MUL | MOL) naexpression
         |   <assoc=left> naexpression (ADD | SUB) naexpression
@@ -122,9 +123,7 @@ naexpression: LB expression RB
         |   operand
         ;
 
-operand: literal | variable | funcall ;
-
-variable: ID | ID LSB expression RSB ;
+operand: literal | ID | funcall ;
 
 literal: INTLIT | FLOATLIT | STRINGLIT | BOOLLIT ;
 
@@ -154,13 +153,13 @@ FLOATLIT: FLOATDIGIT EXP? | '-'?DIGIT+EXP;
 
 fragment EXP: [eE]INTLIT; //notice 1e01
 
-fragment FLOATDIGIT: DIGIT+'.'DIGIT* | DIGIT*'.'DIGIT+ ;
+fragment FLOATDIGIT: '-'?(DIGIT+'.'DIGIT* | DIGIT*'.'DIGIT+) ;
 
 fragment DIGIT: [0-9] ;
 
 STRINGTYPE: 'string';
 
-STRINGLIT: '"' ( ('\\'[bfrnt'"\\] ) | (~[\r\n"\\]) )* '"';
+STRINGLIT: '"' ( ('\\'[bfrnt'"\\] ) | (~[\r\n"\\]) )* '"' {String s = getText(); setText(s.substring(1, s.length() - 1));};
 
 VOIDTYPE: 'void' ;
 
