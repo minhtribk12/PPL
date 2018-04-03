@@ -3,107 +3,7 @@ AstSuite:
 - a simple program with void as return type of main
 - another simple program with int as return type of main
 - a simple program has a simple call putIntLn
-LexerSuite:
-- Blank characters 1
-- Block comment
-- Block comment 2
-- Block comment 3
-- Line comment
-- Line comment 2
-- Block comment4
-- Block comment5
-- Identifiers 1
-- Identifiers 2
-- Identifiers 3
-- Identifiers 4
-- Identifiers 5
-- Keywords 1
-- Keywords 2
-- Keywords 3
-- Keywords 4
-- Keywords 5
-- Keywords 6
-- Operators 1
-- Separators 1
-- Int literals 1
-- Int literals 2
-- Float literals 1
-- Float literals 2
-- Float literals 3
-- Float literals 4
-- Float literals 5
-- Float literals 6
-- Float literals 7
-- Float literals 8
-- Float literals 9
-- Float literals 10
-- Float literals 11
-- Float literals 12
-- String literals 1
-- String literals 2
-- String literals 3
-- String literals 4
-- Error tokens 1
-- Error tokens 2
-- Error tokens 3
-- Error tokens 4
-- Error tokens 5
-- Error tokens 6
-- Error tokens 7
-- Error tokens 8
-- Unclosed String 1
-- Unclosed String 2
-- Unclosed String 3
-- Unclosed String 4
-- Unclosed String 5
-- Unclosed String 6
-- Illegal escape in string1
-- Illegal escape in string 2
-- Illegal escape in string 3
-- Illegal escape in string 4
-- combine 1
-- combine 2
-- combine 3
-- combine 4
-- combine 5
-- combine 6
-- combine 7
-- combine 8
-- combine 9
-- combine 10
-- combine 11
-- combine 12
-- combine 13
-- combine 14
-- combine 15
-- combine 16
-- combine 17
-- combine 18
-- combine 19
-- combine 20
-- combine 21
-- combine 22
-- combine 23
-- combine 24
-- combine 25
-- combine 26
-- combine 27
-- combine 28
-- combine 29
-- combine 30
-- combine 31
-- Keywords 10
-- Keywords 11
-- Keywords 12
-- Keywords 13
-- Keywords 14
-- Keywords 15
-- Keywords 16
-- Keywords 17
-- Keywords 18
-- Keywords 19
-- Keywords 20
-- Keywords 21
+- test dangling if
 ParserSuite:
 - Program contains declarations
 - Program contains declarations 2
@@ -205,8 +105,109 @@ ParserSuite:
 - Function and variable declarations error 1
 - Function and variable declarations error 2
 - Function and variable declarations error 3
-Run completed in 2 seconds, 667 milliseconds.
-Total number of tests run: 203
+LexerSuite:
+- Blank characters 1
+- Block comment
+- Block comment 2
+- Block comment 3
+- Line comment
+- Line comment 2
+- Block comment4
+- Block comment5
+- Identifiers 1
+- Identifiers 2
+- Identifiers 3
+- Identifiers 4
+- Identifiers 5
+- Keywords 1
+- Keywords 2
+- Keywords 3
+- Keywords 4
+- Keywords 5
+- Keywords 6
+- Operators 1
+- Separators 1
+- Int literals 1
+- Int literals 2
+- Float literals 1
+- Float literals 2
+- Float literals 3
+- Float literals 4
+- Float literals 5
+- Float literals 6
+- Float literals 7
+- Float literals 8
+- Float literals 9
+- Float literals 10
+- Float literals 11
+- Float literals 12
+- String literals 1
+- String literals 2
+- String literals 3
+- String literals 4
+- Error tokens 1
+- Error tokens 2
+- Error tokens 3
+- Error tokens 4
+- Error tokens 5
+- Error tokens 6
+- Error tokens 7
+- Error tokens 8
+- Unclosed String 1
+- Unclosed String 2
+- Unclosed String 3
+- Unclosed String 4
+- Unclosed String 5
+- Unclosed String 6
+- Illegal escape in string1
+- Illegal escape in string 2
+- Illegal escape in string 3
+- Illegal escape in string 4
+- combine 1
+- combine 2
+- combine 3
+- combine 4
+- combine 5
+- combine 6
+- combine 7
+- combine 8
+- combine 9
+- combine 10
+- combine 11
+- combine 12
+- combine 13
+- combine 14
+- combine 15
+- combine 16
+- combine 17
+- combine 18
+- combine 19
+- combine 20
+- combine 21
+- combine 22
+- combine 23
+- combine 24
+- combine 25
+- combine 26
+- combine 27
+- combine 28
+- combine 29
+- combine 30
+- combine 31
+- Keywords 10
+- Keywords 11
+- Keywords 12
+- Keywords 13
+- Keywords 14
+- Keywords 15
+- Keywords 16
+- Keywords 17
+- Keywords 18
+- Keywords 19
+- Keywords 20
+- Keywords 21
+Run completed in 2 seconds, 628 milliseconds.
+Total number of tests run: 204
 Suites: completed 3, aborted 0
-Tests: succeeded 203, failed 0, canceled 0, ignored 0, pending 0
+Tests: succeeded 204, failed 0, canceled 0, ignored 0, pending 0
 All tests passed.
