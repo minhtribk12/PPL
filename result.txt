@@ -1,9 +1,4 @@
 Run starting. Expected test count is: 0
-AstSuite:
-- a simple program with void as return type of main
-- another simple program with int as return type of main
-- a simple program has a simple call putIntLn
-- test dangling if
 ParserSuite:
 - Program contains declarations
 - Program contains declarations 2
@@ -206,8 +201,187 @@ LexerSuite:
 - Keywords 19
 - Keywords 20
 - Keywords 21
-Run completed in 2 seconds, 628 milliseconds.
-Total number of tests run: 204
+AstSuite:
+- a simple program with void as return type of main
+- another simple program with int as return type of main
+- a simple program has a simple call putIntLn
+- test dangling if
+- test dangling if 1
+- test dangling if 2
+- test dangling if 3
+- test dangling if 4
+- test dangling if 5
+- test dangling if6
+- test dangling if7
+- test dangling if8
+- test dangling if9
+- test dangling if10
+- test dangling if11
+- test dangling if12
+- test dangling if13
+- test dangling if14
+- test dangling if19
+- test dangling if20 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 220) was false (AstSuite.scala:348)
+- test dangling if21 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 221) was false (AstSuite.scala:360)
+- test dangling if22 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 222) was false (AstSuite.scala:372)
+- test dangling if23 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 223) was false (AstSuite.scala:384)
+- test dangling if24 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 224) was false (AstSuite.scala:396)
+- test dangling if25 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 225) was false (AstSuite.scala:408)
+- test dangling if26 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 226) was false (AstSuite.scala:420)
+- test dangling if27 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 227) was false (AstSuite.scala:432)
+- test dangling if28 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 228) was false (AstSuite.scala:444)
+- test dangling if29 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 229) was false (AstSuite.scala:456)
+- test dangling if30 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 230) was false (AstSuite.scala:468)
+- test dangling if31 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 231) was false (AstSuite.scala:480)
+- test dangling if32 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 232) was false (AstSuite.scala:492)
+- test dangling if33 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 233) was false (AstSuite.scala:504)
+- test dangling if34 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 234) was false (AstSuite.scala:516)
+- test dangling if35 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 235) was false (AstSuite.scala:528)
+- test dangling if36
+- test dangling if37
+- test dangling if38
+- test dangling if39 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 239) was false (AstSuite.scala:591)
+- test dangling if40 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 240) was false (AstSuite.scala:603)
+- test dangling if41 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 241) was false (AstSuite.scala:615)
+- test dangling if42 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 242) was false (AstSuite.scala:627)
+- test dangling if43 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 243) was false (AstSuite.scala:639)
+- test dangling if44 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 244) was false (AstSuite.scala:651)
+- test dangling if45 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 245) was false (AstSuite.scala:663)
+- test dangling if46 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 246) was false (AstSuite.scala:675)
+- test dangling if47 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 247) was false (AstSuite.scala:687)
+- test dangling if48 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 248) was false (AstSuite.scala:699)
+- test dangling if49 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 249) was false (AstSuite.scala:711)
+- test dangling if50 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 250) was false (AstSuite.scala:723)
+- test dangling if51 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 251) was false (AstSuite.scala:735)
+- test dangling if52 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 252) was false (AstSuite.scala:747)
+- test dangling if53 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 253) was false (AstSuite.scala:759)
+- test dangling if54 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 254) was false (AstSuite.scala:771)
+- test dangling if55 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 255) was false (AstSuite.scala:783)
+- test dangling if56 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 256) was false (AstSuite.scala:795)
+- test dangling if57 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 257) was false (AstSuite.scala:807)
+- test dangling if58 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 258) was false (AstSuite.scala:819)
+- test dangling if59 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 259) was false (AstSuite.scala:831)
+- test dangling if60 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 260) was false (AstSuite.scala:843)
+- test dangling if61 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 261) was false (AstSuite.scala:855)
+- test dangling if62 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 262) was false (AstSuite.scala:867)
+- test dangling if63 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 263) was false (AstSuite.scala:879)
+- test dangling if64 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 264) was false (AstSuite.scala:891)
+- test dangling if65 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 265) was false (AstSuite.scala:903)
+- test dangling if66 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 266) was false (AstSuite.scala:915)
+- test dangling if67 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 267) was false (AstSuite.scala:927)
+- test dangling if68 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 268) was false (AstSuite.scala:939)
+- test dangling if69 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 269) was false (AstSuite.scala:951)
+- test dangling if70 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 270) was false (AstSuite.scala:963)
+- test dangling if71 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 271) was false (AstSuite.scala:975)
+- test dangling 72 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 272) was false (AstSuite.scala:987)
+- test dangling 73 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 273) was false (AstSuite.scala:999)
+- test dangling if74 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 274) was false (AstSuite.scala:1011)
+- test dangling if75 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 275) was false (AstSuite.scala:1023)
+- test dangling if76 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 276) was false (AstSuite.scala:1035)
+- test dangling if77 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 277) was false (AstSuite.scala:1047)
+- test dangling if78 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 278) was false (AstSuite.scala:1059)
+- test dangling i79f *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 279) was false (AstSuite.scala:1071)
+- test dangling if80 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 280) was false (AstSuite.scala:1083)
+- test dangling if81 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 281) was false (AstSuite.scala:1095)
+- test dangling if82 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 282) was false (AstSuite.scala:1107)
+- test dangling if83 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 283) was false (AstSuite.scala:1119)
+- test dangling if84 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 284) was false (AstSuite.scala:1131)
+- test dangling if85 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 285) was false (AstSuite.scala:1143)
+- test dangling if86 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 286) was false (AstSuite.scala:1155)
+- test dangling if87 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 287) was false (AstSuite.scala:1167)
+- test dangling if88 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 288) was false (AstSuite.scala:1179)
+- test dangling if89 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 289) was false (AstSuite.scala:1191)
+- test dangling if90 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 290) was false (AstSuite.scala:1203)
+- test dangling if91 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 291) was false (AstSuite.scala:1215)
+- test dangling if92 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 292) was false (AstSuite.scala:1227)
+- test dangling if93 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 293) was false (AstSuite.scala:1239)
+- test dangling if94 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 294) was false (AstSuite.scala:1251)
+- test dangling if95 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 295) was false (AstSuite.scala:1263)
+- test dangling if96 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 296) was false (AstSuite.scala:1275)
+- test dangling if97 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 297) was false (AstSuite.scala:1287)
+- test dangling if98 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 298) was false (AstSuite.scala:1299)
+- test dangling if99 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 299) was false (AstSuite.scala:1311)
+- test dangling if100 *** FAILED ***
+  AstSuite.this.checkAst(input, expected, 100) was false (AstSuite.scala:1323)
+Run completed in 3 seconds, 408 milliseconds.
+Total number of tests run: 300
 Suites: completed 3, aborted 0
-Tests: succeeded 204, failed 0, canceled 0, ignored 0, pending 0
-All tests passed.
+Tests: succeeded 222, failed 78, canceled 0, ignored 0, pending 0
+*** 78 TESTS FAILED ***

@@ -1,2 +1,1 @@
-string
-<EOF>
+Program(List(FuncDecl(Id(main),List(),IntType,Block(List(VarDecl(Id(a),IntType),VarDecl(Id(b),IntType),VarDecl(Id(c),IntType)),List(BinaryOp(=,Id(c),CallExpr(Id(tong),List(Id(a),Id(b)))),Return(Some(IntLiteral(0))))))))

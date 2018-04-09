@@ -1,7 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/minhtribk12/Google_Drive/Study/Master/Principles of Programming Languages/Assignment/source/initial/src/main/mc/astgen/ASTGeneration.scala:116:90: value accept is not a member of java.util.List[mc.parser.MCParser.ExpressionContext][0m
-[0m[[0m[31merror[0m] [0m[0m      if(ctx.ID != null) ArrayCell(Id(ctx.ID.getText).asInstanceOf[Expr], ctx.expression.accept(this).asInstanceOf[Expr])[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                                         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/minhtribk12/Google_Drive/Study/Master/Principles of Programming Languages/Assignment/source/initial/src/main/mc/astgen/ASTGeneration.scala:129:92: value accept is not a member of java.util.List[mc.parser.MCParser.NaexpressionContext][0m
-[0m[[0m[31merror[0m] [0m[0m      if(ctx.ID != null) ArrayCell(Id(ctx.ID.getText).asInstanceOf[Expr], ctx.naexpression.accept(this).asInstanceOf[Expr])[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                                           ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

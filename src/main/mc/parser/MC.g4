@@ -87,7 +87,7 @@ stmtif: ifelse | whilestmt | forstmt | breakstmt | continuestmt | returnstmt | e
 
 ifnoelse: IF LB expression RB stmt ;
 
-whilestmt: DO stmt+ WHILE expression SEMI ;
+whilestmt: DO stmt* WHILE expression SEMI ;
 
 forstmt: FOR LB expression SEMI expression SEMI expression RB  stmt ;
 
@@ -99,7 +99,7 @@ returnstmt: RETURN SEMI | RETURN expression SEMI ;
 
 expression: LB expression RB
         |   ID LSB expression RSB
-        |   expression LSB expression RSB
+        |   naexpression LSB expression RSB
         |   <assoc=right> (SUB|NOT) expression
         |   <assoc=left> expression (DIV | MUL | MOL) expression
         |   <assoc=left> expression (ADD | SUB) expression
@@ -112,8 +112,6 @@ expression: LB expression RB
         ;
 
 naexpression: LB expression RB
-        |   ID LSB naexpression RSB
-        |   naexpression LSB naexpression RSB
         |   <assoc=right> (SUB|NOT) naexpression
         |   <assoc=left> naexpression (DIV | MUL | MOL) naexpression
         |   <assoc=left> naexpression (ADD | SUB) naexpression
@@ -188,10 +186,6 @@ BREAK: 'break' ;
 CONTINUE: 'continue' ;
 
 RETURN: 'return' ;
-
-REPEAT: 'repeat' ;
-
-UNTIL: 'until' ;
 
 ADD: '+' ;
 

@@ -1,12 +1,14 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AstSuite, org.scalatest.tools.Framework$$anon$1@56aea6b6, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ParserSuite, org.scalatest.tools.Framework$$anon$1@56aea6b6, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(LexerSuite, org.scalatest.tools.Framework$$anon$1@56aea6b6, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 628 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 204[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AstSuite, org.scalatest.tools.Framework$$anon$1@36c35505, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(LexerSuite, org.scalatest.tools.Framework$$anon$1@36c35505, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ParserSuite, org.scalatest.tools.Framework$$anon$1@36c35505, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 3 seconds, 408 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 300[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 204, failed 0, canceled 0, ignored 0, pending 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 222, failed 78, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 78 TESTS FAILED ***[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	AstSuite[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ParserSuite[0m
 [0m[[0m[0mdebug[0m] [0m[0m	LexerSuite[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	AstSuite[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

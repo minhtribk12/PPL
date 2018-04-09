@@ -1071,7 +1071,7 @@ class ParserSuite  extends FunSuite with TestParser {
 				while (a == b);
 			}
 		"""
-		val expect = "Error on line 4 col 5: while"
+		val expect = "sucessful"
 		assert(checkRec(input,expect,191))
 	}
 

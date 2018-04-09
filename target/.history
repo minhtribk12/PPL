@@ -253,3 +253,106 @@ run -draw ./src/test/scala/testcases/204.txt
 test
 run -draw ./src/test/scala/testcases/204.txt
 test
+compile
+clean
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+clean
+compile
+clean
+compile
+clean
+compile
+test
+clean
+compile
+clean
+compile
+test
+compile
+clean
+compile
+test
+clean
+compile
+test
+clean
+compile
+test
+run -draw ./src/test/scala/testcases/213.txt
+test
+run -draw ./src/test/scala/testcases/214.txt
+test
+run -draw ./src/test/scala/testcases/215.txt
+test
+run -draw ./src/test/scala/testcases/215.txt
+test
+run -draw ./src/test/scala/testcases/215.txt
+test
+run -draw ./src/test/scala/testcases/216.txt
+test
+run -draw ./src/test/scala/testcases/217.txt
+test
+clean
+compile
+test
+clean
+compile
+test
+clean
+compile
+test
+run -draw ./src/test/scala/testcases/218.txt
+test
+run -draw ./src/test/scala/testcases/230.txt
+test
+run -draw ./src/test/scala/testcases/230.txt
+test
+run -draw ./src/test/scala/testcases/236.txt
+test
+run -draw ./src/test/scala/testcases/237.txt
+test
+run -draw ./src/test/scala/testcases/237.txt
+test
+run -draw ./src/test/scala/testcases/237.txt
+test
+run -draw ./src/test/scala/testcases/237.txt
+test
+run -draw ./src/test/scala/testcases/238.txt
+test
+run -draw ./src/test/scala/testcases/238.txt
+test
+run -draw ./src/test/scala/testcases/220.txt
+test
+run -draw ./src/test/scala/testcases/220.txt
+clean
+compile
+clean
+compile
+clean
+compile
+test
+clean
+compile
+test
+clean
+compile
+test
+clean
+compile
+test
+run -draw ./src/test/scala/testcases/220.txt
+clean
+compile
+clean
+compile
+test
