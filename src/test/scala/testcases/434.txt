@@ -1,0 +1,7 @@
+
+    float hehe(){ return 10.; }
+    int short_testcase1(){
+      int a;
+      a = hehe();
+      return 0;
+    }

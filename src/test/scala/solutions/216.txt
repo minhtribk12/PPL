@@ -1,0 +1,1 @@
+Program(List(FuncDecl(Id("main"),List(),IntType,Block(List(),List(If(BooleanLiteral(true),Block(List(),List(BinaryOp("=",Id("a"),IntLiteral(1)),BinaryOp("=",ArrayCell(Id("a"),ArrayCell(Id("b"),Id("d"))),IntLiteral(2)))),Some(If(BooleanLiteral(false),BinaryOp("=",Id("a"),IntLiteral(2)),None))))))))

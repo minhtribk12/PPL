@@ -1,0 +1,9 @@
+
+    // Short, Type Mismatch In If Statement
+    int main(){
+      int a;
+      if(a = 0)
+        a = a + 1;
+      return a;
+    }
+    

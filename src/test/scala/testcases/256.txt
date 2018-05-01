@@ -1,0 +1,17 @@
+
+	int a, b, c[5];
+
+	int main(){
+		/* declaration */
+		float d;
+		int e, f, g[7];
+
+		// statement part
+		{
+		f = 1;
+		foo(1,2);
+		e + 1;
+		100;
+		}
+	}
+    

@@ -1,0 +1,1 @@
+Program(List(VarDecl(Id("a"),IntType),VarDecl(Id("b"),FloatType),FuncDecl(Id("f1"),List(),IntType,Block(List(VarDecl(Id("c"),IntType),VarDecl(Id("d"),IntType)),List(Return(Some(IntLiteral(1))))))))

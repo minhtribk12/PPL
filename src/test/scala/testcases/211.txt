@@ -1,0 +1,11 @@
+
+    int a;
+    int plus(int b){
+        int rs;
+        if (b > 0) rs = a + b;
+        else rs = 0;
+        return rs;
+    }
+    int main(){
+    }
+    

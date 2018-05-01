@@ -1,0 +1,6 @@
+
+	int a;
+	float b;
+	int f1() {int c; int d; return 1;}
+
+    

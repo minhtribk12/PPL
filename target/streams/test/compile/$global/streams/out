@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/minhtribk12/Google_Drive/Study/Master/Principles of Programming Languages/Assignment/source/initial/src/test/scala/CheckerSuite.scala:2131:69: ';' expected but string literal found.[0m
+[0m[[0m[31merror[0m] [0m[0m    val expected = "Type Mismatch In Expression: CallExpr(Id(/"tich/"),List(FloatLiteral(5.5f),StringLiteral(/"a/")))"[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

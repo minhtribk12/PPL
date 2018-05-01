@@ -1,0 +1,38 @@
+
+	int main()
+	{
+		int age;
+		int cnt_baby, cnt_school, cnt_adult;
+		int count;
+		float a[100];
+		boolean flag;
+		
+		for(count = 0; count < 15; count = count + 1)
+		{
+			int i;
+			printf("Enter age of person [%d]: ", count + 1);
+			scanf("%d", age);
+			
+			if(age >= 0 && age <= 5){
+				cnt_baby = cnt_baby + 1;
+				for(i = 0; i < 100; i = i + 1){
+					if(a[i] == 1)
+						flag = 1;
+					else
+						flag = 0;
+				}
+			}
+			
+			if(age >= 6 && age <= 17)
+				cnt_school = cnt_school + 1;
+			else
+				cnt_adult = cnt_adult + 1;
+		}
+		
+		printf("Baby age: %d\n", cnt_baby);
+		printf("School age: %d\n", cnt_school);
+		printf("Adult age: %d\n", cnt_adult);
+		
+		return 0;
+	}
+    

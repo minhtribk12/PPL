@@ -1,0 +1,19 @@
+
+    int i;
+    int Inc(int input) {
+      return input + 1;
+    }
+    int main() {
+        int main;
+        main = Inc(i);
+        putIntLn(i);
+        {
+        int i,foo;
+        int main;
+        int foo;
+        main = foo = i = 100;
+        putIntLn(i);		 
+        putIntLn(Inc(main));
+        }
+        putIntLn(main);
+    }

@@ -142,7 +142,7 @@ assert(checkLex(input,expected,27))
 }
 test("Float literals 5") {
 val input ="-0.012E-0"
-val expected ="-0.012E-0,<EOF>"
+val expected ="-,0.012E-0,<EOF>"
 assert(checkLex(input,expected,28))
 }
 test("Float literals 6") {
@@ -167,7 +167,7 @@ assert(checkLex(input,expected,32))
 }
 test("Float literals 10") {
 val input ="-.012E-0"
-val expected ="-.012E-0,<EOF>"
+val expected ="-,.012E-0,<EOF>"
 assert(checkLex(input,expected,33))
 }
 test("Float literals 11") {

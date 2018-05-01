@@ -1,0 +1,9 @@
+
+			void f() {
+				boolean a,b[0],_aa;
+				string a,b[0];
+				{
+					boolean a,b[0],_aa;
+				}
+			}
+		

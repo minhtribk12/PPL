@@ -1,0 +1,38 @@
+
+    int main()
+    {
+        int a, b, c, determinant, root1,root2, realPart, imaginaryPart;
+
+        putStringLn("Enter coefficients a, b and c: ");
+        getInt();
+
+        determinant = b * b - 4 * a * c;
+
+        // condition for real and different roots
+        if (determinant > 0)
+        {
+        // sqrt() function returns square root
+            root1 = (-b + sqrt(determinant)) / (2*a);
+            root2 = (-b - sqrt(determinant)) / (2*a);
+
+            putStringLn("root1 = %.2lf and root2 = %.2lf");
+        }
+
+        //condition for real and equal roots
+        else if (determinant == 0)
+        {
+            root1 = root2 = -b / (2*a);
+
+            putStringLn("root1 = root2 = %.2lf;");
+        }
+
+        // if roots are not real 
+        else
+        {
+            real = -b / (2*a);  // this is error
+            imaginaryPart = sqrt(-determinant) / (2*a);
+            putStringLn("root1 = %.2lf+%.2lfi and root2 = %.2f-%.2fi");
+        }
+
+        return 0;
+    }  

@@ -1,0 +1,12 @@
+
+			int i;
+			void g() {
+				f(3);
+				for (i = 1; i <=2; i + 1) {
+					if (i < 2)  
+						i = 1;
+					else i = i + 5;
+				}
+			}
+			void g(){}
+		

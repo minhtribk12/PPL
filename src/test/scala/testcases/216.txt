@@ -1,0 +1,10 @@
+
+    int main() {
+        if (true) 
+				{
+					a = 1;
+        	a[b[d]] = 2;
+				}
+        else if (false) a = 2;
+    }
+    

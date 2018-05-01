@@ -1,0 +1,1 @@
+Program(List(VarDecl(Id("a"),IntType),FuncDecl(Id("equal"),List(VarDecl(Id("b"),IntType)),BoolType,Block(List(),List(If(BinaryOp("==",Id("a"),Id("b")),Return(Some(BooleanLiteral(true))),None),Return(Some(BooleanLiteral(false)))))),FuncDecl(Id("main"),List(),IntType,Block(List(),List()))))

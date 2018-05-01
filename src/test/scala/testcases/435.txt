@@ -1,0 +1,8 @@
+
+    void malloc(int k){ return; }
+    float short_testcase2(){
+      int e[10];
+      e[0] = 100;
+      t = malloc(e[0]);
+      return 1.e-5;
+    }

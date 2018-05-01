@@ -1,0 +1,20 @@
+
+    float sum2(float a, float b, float c) {
+      int arr[5];
+      float tong;
+      float tmp;
+      arr[1] = 123;
+      tmp = a + b;
+      tong = tmp + c;
+      return tong;
+    }
+
+    float sub(float a, float b, int c) {
+      int arr[5];
+      float hieu;
+      float tmp;
+      arr[0.5] = 123;
+      tmp = a - b;
+      hieu = tmp - c;
+      return hieu;
+    }

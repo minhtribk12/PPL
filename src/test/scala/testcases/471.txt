@@ -1,0 +1,10 @@
+
+    int tich(float a, float b) {
+      int result;
+      result = a * b;
+      return result;
+    }
+
+    int main() {
+      tich(5.5, 2.5);
+    }

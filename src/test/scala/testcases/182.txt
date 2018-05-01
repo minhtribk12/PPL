@@ -1,0 +1,10 @@
+
+			void main(){
+	
+				int Test_9;
+				
+				Test_9 = 1;
+				
+			}
+
+		

@@ -1,0 +1,4 @@
+
+			boolean a,b[0],_aa;
+			int x;
+		

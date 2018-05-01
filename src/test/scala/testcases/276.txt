@@ -1,0 +1,30 @@
+
+	int low, high, i, flag;
+
+	int main()
+	{
+		printf("Enter two numbers(intervals): ");
+		scanf("%d %d", low, high);
+
+		printf("Prime numbers between %d and %d are: ", low, high);
+
+		do
+			flag = 0;
+			for(i = 2; i <= low / 2; i = i + 1)
+			{
+				if(low / i == 0)
+				{
+					flag = 1;
+					break;
+				}
+			}
+
+			if (flag == 0)
+				printf("%d ", low);
+
+			low = low + 1;
+		while (low < high);
+
+		return 0;
+	}
+    

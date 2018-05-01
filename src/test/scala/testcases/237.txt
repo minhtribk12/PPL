@@ -1,0 +1,12 @@
+
+    int main()
+    {
+      int a, b[2];
+      float a, b[2];
+      boolean a, b[2];
+      string a, b[2];
+    }
+    void a (int a[], float b[], string c[], int d, float e, string f){
+      a["ewe"] = "abc" + 2.1 + true;
+    }
+    

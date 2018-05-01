@@ -1,0 +1,23 @@
+
+	int n,r,ncr;
+	boolean t[5], s;
+	float f, g[5];
+
+	int main(){
+	  printf("Enter any two numbers->");
+	  scanf("%d %d", n, r);
+	  ncr = fact(n) / ( fact(r) * fact(n-r));
+	  printf("The NCR factor of %d and %d is %d", n, r, ncr);
+	  return 0;
+	}
+
+	int fact(int n[]){
+	  int i;
+	  for(i = 0; i < n; i = i + 1){
+		i = i * n;
+		--n;
+	  }
+
+	  return i;
+	}
+    

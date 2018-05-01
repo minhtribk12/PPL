@@ -163,11 +163,59 @@ public interface MCVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitExpression(MCParser.ExpressionContext ctx);
 	/**
-	 * Visit a parse tree produced by {@link MCParser#naexpression}.
+	 * Visit a parse tree produced by {@link MCParser#exp1}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitNaexpression(MCParser.NaexpressionContext ctx);
+	T visitExp1(MCParser.Exp1Context ctx);
+	/**
+	 * Visit a parse tree produced by {@link MCParser#exp2}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitExp2(MCParser.Exp2Context ctx);
+	/**
+	 * Visit a parse tree produced by {@link MCParser#exp3}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitExp3(MCParser.Exp3Context ctx);
+	/**
+	 * Visit a parse tree produced by {@link MCParser#exp4}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitExp4(MCParser.Exp4Context ctx);
+	/**
+	 * Visit a parse tree produced by {@link MCParser#exp5}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitExp5(MCParser.Exp5Context ctx);
+	/**
+	 * Visit a parse tree produced by {@link MCParser#exp6}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitExp6(MCParser.Exp6Context ctx);
+	/**
+	 * Visit a parse tree produced by {@link MCParser#exp7}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitExp7(MCParser.Exp7Context ctx);
+	/**
+	 * Visit a parse tree produced by {@link MCParser#exp8}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitExp8(MCParser.Exp8Context ctx);
+	/**
+	 * Visit a parse tree produced by {@link MCParser#exp9}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitExp9(MCParser.Exp9Context ctx);
 	/**
 	 * Visit a parse tree produced by {@link MCParser#operand}.
 	 * @param ctx the parse tree

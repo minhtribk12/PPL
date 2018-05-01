@@ -1,0 +1,7 @@
+
+			void f(int a) {
+				if (a || b) break;
+				else if (true) break;
+				else break;
+			}
+		

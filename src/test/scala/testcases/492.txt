@@ -1,0 +1,7 @@
+
+    int tich(float a, float b) {
+      int result;
+      result = a * b;
+      return result;
+    }
+    

@@ -1,0 +1,28 @@
+
+    // Testcase 4 - Long testcase: Continue not in loop
+    float fa;
+    void doNothingLiterally() {
+      return;
+    }
+    float doSomethingWithParemeter(int p0, float p1, boolean p2) {
+      for (p0; p2 != false; p0 = p0 * 2) {
+        p1 = 1.0;
+        for (p0; p2 == true && p0 < 100; p0) {
+          continue;
+        }
+        if (p0 == 64) {
+          //p2 = true;
+        }
+      }
+      return p1;
+    }
+    int main() {
+      int i;
+      doSomethingWithParemeter(0, fa, true);
+      do
+        continue;
+      while (true);
+      continue; // Continue not in loop
+      i = 0;
+      return 1;
+    }

@@ -1,105 +1,4 @@
 Run starting. Expected test count is: 0
-ParserSuite:
-- Program contains declarations
-- Program contains declarations 2
-- Program contains declarations 3
-- Program contains declarations 4
-- Variable declarations
-- Variable declarations 2
-- Variable declarations 3
-- Variable declarations 4
-- Function declarations
-- Function declarations 2
-- Function declarations 3
-- Function declarations 4
-- Nested function
-- Primitive type
-- Void type
-- PARAMETER error
-- Void type error
-- Array type
-- Array type int error
-- Array pointer type
-- Array pointer type error
-- Array pointer type error 2
-- Variable initialization
-- Variable initialization 2
-- Expression: OR
-- Expression: AND
-- Expression: GREATER
-- Expression: GREATER 2
-- Expression: LESS
-- Expression: LESS 2
-- Expression: GREATER ERROR
-- Expression: ADD SUBTRACT
-- Expression: MUL DIVIDE
-- Expression: MIXED
-- Expression: UNARY
-- Expression: EQUAL
-- Expression: EQUAL ERROR
-- Expression: EQUAL 2
-- Expression: INDEX
-- Expression: INDEX 2
-- Expression: INDEX 3
-- Expression: INDEX 4
-- Expression: INVOCATION
-- Expression: INVOCATION 2
-- Expression: INVOCATION 4
-- Expression: INVOCATION 5
-- Expression: INVOCATION 6
-- Expression: INVOCATION 7
-- Expression: INVOCATION 8
-- a simple program
-- Statement: If-noelse
-- Statement: If-else
-- Statement: If-else 2
-- Statement: do while
-- Statement: do while 2
-- Statement: for
-- Statement: for 2
-- Statement: break
-- Statement: break 2
-- Statement: continue
-- Statement: continue 2
-- Statement: return
-- Statement: return 2
-- Statement: return 3
-- Statement: expression
-- Statement: expression 1
-- Statement: expression 2
-- Statement: expression 3
-- Statement: block
-- Statement: block 2
-- Statement: block 3
-- Statement: block 4
-- Stament: mixed
-- mixed
-- mixed 2
-- mixed 3
-- mixed 4
-- mixed 5
-- mixed 6
-- mixed 7
-- mixed 8
-- mixed 9
-- mixed 10
-- mixed 11
-- mixed 12
-- mixed 13
-- mixed 14
-- mixed 15
-- mixed 16
-- mixed 17
-- Statement: do while error
-- Statement before declare
-- more complex program
-- wrong program
-- Function and variable declarations 1
-- Function and variable declarations 2
-- Function and variable declarations 3
-- Function and variable declarations error 1
-- Function and variable declarations error 2
-- Function and variable declarations error 3
 LexerSuite:
 - Blank characters 1
 - Block comment
@@ -202,186 +101,310 @@ LexerSuite:
 - Keywords 20
 - Keywords 21
 AstSuite:
-- a simple program with void as return type of main
-- another simple program with int as return type of main
-- a simple program has a simple call putIntLn
-- test dangling if
-- test dangling if 1
-- test dangling if 2
-- test dangling if 3
+- a simple program 1
+- another simple program 2
+- a simple program 3
 - test dangling if 4
-- test dangling if 5
-- test dangling if6
-- test dangling if7
-- test dangling if8
-- test dangling if9
-- test dangling if10
-- test dangling if11
-- test dangling if12
-- test dangling if13
-- test dangling if14
-- test dangling if19
-- test dangling if20 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 220) was false (AstSuite.scala:348)
-- test dangling if21 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 221) was false (AstSuite.scala:360)
-- test dangling if22 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 222) was false (AstSuite.scala:372)
-- test dangling if23 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 223) was false (AstSuite.scala:384)
-- test dangling if24 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 224) was false (AstSuite.scala:396)
-- test dangling if25 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 225) was false (AstSuite.scala:408)
-- test dangling if26 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 226) was false (AstSuite.scala:420)
-- test dangling if27 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 227) was false (AstSuite.scala:432)
-- test dangling if28 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 228) was false (AstSuite.scala:444)
-- test dangling if29 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 229) was false (AstSuite.scala:456)
-- test dangling if30 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 230) was false (AstSuite.scala:468)
-- test dangling if31 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 231) was false (AstSuite.scala:480)
-- test dangling if32 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 232) was false (AstSuite.scala:492)
-- test dangling if33 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 233) was false (AstSuite.scala:504)
-- test dangling if34 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 234) was false (AstSuite.scala:516)
-- test dangling if35 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 235) was false (AstSuite.scala:528)
-- test dangling if36
-- test dangling if37
-- test dangling if38
-- test dangling if39 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 239) was false (AstSuite.scala:591)
-- test dangling if40 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 240) was false (AstSuite.scala:603)
-- test dangling if41 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 241) was false (AstSuite.scala:615)
-- test dangling if42 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 242) was false (AstSuite.scala:627)
-- test dangling if43 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 243) was false (AstSuite.scala:639)
-- test dangling if44 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 244) was false (AstSuite.scala:651)
-- test dangling if45 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 245) was false (AstSuite.scala:663)
-- test dangling if46 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 246) was false (AstSuite.scala:675)
-- test dangling if47 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 247) was false (AstSuite.scala:687)
-- test dangling if48 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 248) was false (AstSuite.scala:699)
-- test dangling if49 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 249) was false (AstSuite.scala:711)
-- test dangling if50 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 250) was false (AstSuite.scala:723)
-- test dangling if51 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 251) was false (AstSuite.scala:735)
-- test dangling if52 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 252) was false (AstSuite.scala:747)
-- test dangling if53 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 253) was false (AstSuite.scala:759)
-- test dangling if54 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 254) was false (AstSuite.scala:771)
-- test dangling if55 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 255) was false (AstSuite.scala:783)
-- test dangling if56 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 256) was false (AstSuite.scala:795)
-- test dangling if57 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 257) was false (AstSuite.scala:807)
-- test dangling if58 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 258) was false (AstSuite.scala:819)
-- test dangling if59 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 259) was false (AstSuite.scala:831)
-- test dangling if60 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 260) was false (AstSuite.scala:843)
-- test dangling if61 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 261) was false (AstSuite.scala:855)
-- test dangling if62 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 262) was false (AstSuite.scala:867)
-- test dangling if63 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 263) was false (AstSuite.scala:879)
-- test dangling if64 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 264) was false (AstSuite.scala:891)
-- test dangling if65 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 265) was false (AstSuite.scala:903)
-- test dangling if66 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 266) was false (AstSuite.scala:915)
-- test dangling if67 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 267) was false (AstSuite.scala:927)
-- test dangling if68 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 268) was false (AstSuite.scala:939)
-- test dangling if69 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 269) was false (AstSuite.scala:951)
-- test dangling if70 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 270) was false (AstSuite.scala:963)
-- test dangling if71 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 271) was false (AstSuite.scala:975)
-- test dangling 72 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 272) was false (AstSuite.scala:987)
-- test dangling 73 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 273) was false (AstSuite.scala:999)
-- test dangling if74 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 274) was false (AstSuite.scala:1011)
-- test dangling if75 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 275) was false (AstSuite.scala:1023)
-- test dangling if76 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 276) was false (AstSuite.scala:1035)
-- test dangling if77 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 277) was false (AstSuite.scala:1047)
-- test dangling if78 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 278) was false (AstSuite.scala:1059)
-- test dangling i79f *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 279) was false (AstSuite.scala:1071)
-- test dangling if80 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 280) was false (AstSuite.scala:1083)
-- test dangling if81 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 281) was false (AstSuite.scala:1095)
-- test dangling if82 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 282) was false (AstSuite.scala:1107)
-- test dangling if83 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 283) was false (AstSuite.scala:1119)
-- test dangling if84 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 284) was false (AstSuite.scala:1131)
-- test dangling if85 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 285) was false (AstSuite.scala:1143)
-- test dangling if86 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 286) was false (AstSuite.scala:1155)
-- test dangling if87 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 287) was false (AstSuite.scala:1167)
-- test dangling if88 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 288) was false (AstSuite.scala:1179)
-- test dangling if89 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 289) was false (AstSuite.scala:1191)
-- test dangling if90 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 290) was false (AstSuite.scala:1203)
-- test dangling if91 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 291) was false (AstSuite.scala:1215)
-- test dangling if92 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 292) was false (AstSuite.scala:1227)
-- test dangling if93 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 293) was false (AstSuite.scala:1239)
-- test dangling if94 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 294) was false (AstSuite.scala:1251)
-- test dangling if95 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 295) was false (AstSuite.scala:1263)
-- test dangling if96 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 296) was false (AstSuite.scala:1275)
-- test dangling if97 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 297) was false (AstSuite.scala:1287)
-- test dangling if98 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 298) was false (AstSuite.scala:1299)
-- test dangling if99 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 299) was false (AstSuite.scala:1311)
-- test dangling if100 *** FAILED ***
-  AstSuite.this.checkAst(input, expected, 100) was false (AstSuite.scala:1323)
-Run completed in 3 seconds, 408 milliseconds.
-Total number of tests run: 300
-Suites: completed 3, aborted 0
-Tests: succeeded 222, failed 78, canceled 0, ignored 0, pending 0
-*** 78 TESTS FAILED ***
+- test funcdecl 5
+- test funcdecl 6
+- test funcdecl 7
+- test funcdecl 8
+- test funcdecl 9
+- test funcdecl 10
+- test funcdecl 11
+- test funcdecl 12
+- test funcdecl 13
+- test funcdecl 14
+- test Array element 15
+- test Array element 16
+- test if statement 17
+- test priority 18
+- test funcall 19
+- test complex program 20
+- test funcdeclare 21
+- test var declare 22
+- test funcdeclare 23
+- test for statement 24
+- test for statement 25
+- test for statement 26
+- test for statement 27
+- test func + var declare 28
+- test func + var decalare 29
+- test for 30
+- test boolean function 31
+- test void function 32
+- test void function 33
+- test void function 34
+- test do while 35
+- test boolean function 36
+- test literal 37
+- test do while 38
+- test multi decalare 39
+- test multi decalre 40
+- test multi decalare 41
+- test var decalre 42
+- test var declare 43
+- test var declare 44
+- test var decalare 45
+- test if statement 46
+- test do while 47
+- test for statement 48
+- test break statemnet 49
+- test continue statement 50
+- test return 51
+- test return statement 52
+- test return statement 53
+- test funcall 54
+- test funcall 55
+- test block statement 56
+- test block statement 57
+- test block statement 58
+- test block statement 59
+- test block statement 60
+- test complex program 61
+- test complex program 62
+- test Stringlit 63
+- test Stringlit 64
+- test Stringlit 65
+- test Stringlit 66
+- test complex program 67
+- test priority 68
+- test associate 69
+- test complex statement 70
+- test complex statement 71
+- test complex program 72
+- test complex program 73
+- test complex program 74
+- test complex program 75
+- test complex program 76
+- test complex program 77
+- test complex program 78
+- test complex program 79
+- test complex program 80
+- test for statement 81
+- test for statement 82
+- test for statement 83
+- test for statement 84
+- test for statement 85
+- test complex program 86
+- test complex program 87
+- test complex program 88
+- test if statement 89
+- test complex program 90
+- test Stringlit 91
+- test complex program 92
+- test for statement 93
+- test Stringlit 94
+- test complex program 95
+- test complex program 96
+- test complex program 97
+- test complex program 98
+- test complex program 99
+- test complex program 100
+CheckerSuite:
+- Undeclared Function
+- Type Mismatch In Expression: getInt
+- Type Mismatch In Expression: putIntLn
+- Check with AST
+- Check with AST putIntLn with float
+- Undeclared Variable
+- Undeclared Variable 2
+- Undeclared Variable 3
+- Type Mismatch In Statement 11
+- Function Not Return 12
+- Type Mismatch In Expression 13
+- Type Mismatch In Expression 14
+- Type Mismatch In Expression 15
+- Type Mismatch In Expression 16
+- Function Not Return 17
+- Function Not Return 18
+- Break Not In Loop 19
+- Type Mismatch In Expression 110
+- Type Mismatch In Statement 111
+- Type Mismatch In Statement 112
+- Type Mismatch In Statement 113
+- Type Mismatch In Statement 114
+- cUndeclared Function 115
+- Undeclared Function 116
+- Undeclared Function 117
+- Undeclared Function 118
+- Undeclared Function 119
+- Type Mismatch In Expression 120
+- Redeclared Parameter 121
+- Redeclared Variable 122
+- Redeclared Variable 123
+- No Entry Point 124
+- Type Mismatch In Statement 125
+- Type Mismatch In Expression 126
+- Undeclared Identifier 127
+- Type Mismatch In Expression 128
+- Continue Not In Loop 129
+- Continue Not In Loop 130
+- Continue Not In Loop 131
+- Continue Not In Loop 132
+- Continue Not In Loop 133
+- No Entry Point 134
+- Undeclared Identifier 135
+- Undeclared Identifier 136
+- Undeclared Identifier 137
+- Undeclared Identifier 138
+- Redeclared Parameter 139
+- Redeclared Variable 140
+- Redeclared Variable 141
+- No Entry Point 142
+- Type Mismatch In Expression 143
+- Type Mismatch In Statement 144
+- Type Mismatch In Statement 145
+- Type Mismatch In Statement 146
+- Type Mismatch In Statement 147
+- Function Not Return 148
+- Type Mismatch In Expression 149
+- Redeclared Variable 150
+- Redeclared Variable 151
+- Redeclared Variable 152
+- Redeclared Variable 153
+- Redeclared Variable 154
+- Type Mismatch In Statement 155
+- Type Mismatch In Statement 156
+- Undeclared Identifier 157
+- Undeclared Identifier 158
+- Undeclared Identifier 159
+- Undeclared Identifier 160
+- Undeclared Function 161
+- Undeclared Function 162
+- Type Mismatch In Expression 163
+- Type Mismatch In Expression 164
+- Type Mismatch In Expression 165
+- Type Mismatch In Expression 166
+- Type Mismatch In Expression 167
+- Redeclared Parameter 168
+- Function Not Return 169
+- Redeclared Parameter 170
+- Redeclared Variable 171
+- Redeclared Variable 172
+- Redeclared Variable 173
+- No Entry Point 174
+- Redeclared Variable 175
+- Type Mismatch In Statement 176
+- Undeclared Identifier 177
+- Undeclared Identifier 178
+- Undeclared Identifier 179
+- Undeclared Identifier 180
+- Undeclared Function 181
+- Undeclared Function 182
+- Type Mismatch In Expression 183
+- Type Mismatch In Expression 184
+- Type Mismatch In Expression 185
+- Type Mismatch In Expression 186
+- Type Mismatch In Expression 187
+- Type Mismatch In Expression 188
+- Undeclared Identifier 189
+- Redeclared Parameter 190
+- Type Mismatch In Expression 191
+- Unreachable Statement 192
+ParserSuite:
+- Program contains declarations
+- Program contains declarations 2
+- Program contains declarations 3
+- Program contains declarations 4
+- Variable declarations
+- Variable declarations 2
+- Variable declarations 3
+- Variable declarations 4
+- Function declarations
+- Function declarations 2
+- Function declarations 3
+- Function declarations 4
+- Nested function
+- Primitive type
+- Void type
+- PARAMETER error
+- Void type error
+- Array type
+- Array type int error
+- Array pointer type
+- Array pointer type error
+- Array pointer type error 2
+- Variable initialization
+- Variable initialization 2
+- Expression: OR
+- Expression: AND
+- Expression: GREATER
+- Expression: GREATER 2
+- Expression: LESS
+- Expression: LESS 2
+- Expression: GREATER ERROR
+- Expression: ADD SUBTRACT
+- Expression: MUL DIVIDE
+- Expression: MIXED
+- Expression: UNARY
+- Expression: EQUAL
+- Expression: EQUAL ERROR
+- Expression: EQUAL 2
+- Expression: INDEX
+- Expression: INDEX 2
+- Expression: INDEX 3
+- Expression: INDEX 4
+- Expression: INVOCATION
+- Expression: INVOCATION 2
+- Expression: INVOCATION 4
+- Expression: INVOCATION 5
+- Expression: INVOCATION 6
+- Expression: INVOCATION 7
+- Expression: INVOCATION 8
+- a simple program
+- Statement: If-noelse
+- Statement: If-else
+- Statement: If-else 2
+- Statement: do while
+- Statement: do while 2
+- Statement: for
+- Statement: for 2
+- Statement: break
+- Statement: break 2
+- Statement: continue
+- Statement: continue 2
+- Statement: return
+- Statement: return 2
+- Statement: return 3
+- Statement: expression
+- Statement: expression 1
+- Statement: expression 2
+- Statement: expression 3
+- Statement: block
+- Statement: block 2
+- Statement: block 3
+- Statement: block 4
+- Stament: mixed
+- mixed
+- mixed 2
+- mixed 3
+- mixed 4
+- mixed 5
+- mixed 6
+- mixed 7
+- mixed 8
+- mixed 9
+- mixed 10
+- mixed 11
+- mixed 12
+- mixed 13
+- mixed 14
+- mixed 15
+- mixed 16
+- mixed 17
+- Statement: do while error
+- Statement before declare
+- more complex program
+- wrong program
+- Function and variable declarations 1
+- Function and variable declarations 2
+- Function and variable declarations 3
+- Function and variable declarations error 1
+- Function and variable declarations error 2
+- Function and variable declarations error 3
+Run completed in 3 seconds, 147 milliseconds.
+Total number of tests run: 400
+Suites: completed 4, aborted 0
+Tests: succeeded 400, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.

@@ -1,0 +1,12 @@
+
+			int b;
+			string c;
+			int d;
+			int foo(int a, int b){
+				e = a + b;
+				foo(e);
+				return e;
+			}
+
+
+		

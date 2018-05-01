@@ -1,0 +1,23 @@
+
+    // Testcase 3 - Long testcase: Continue not in loop
+    float doSomethingRedundant() {
+      int i;
+      int j;
+      float k;
+      
+      i = 10 * 10 + 10 / 10;
+      j = (i - 101) * 1;
+      k = 69.0;
+      for (i = 0; i < 1007 - 1000; i = i * 2 + 1) { 
+        j + 1; 
+        continue; 
+      }	
+      return k * j;
+    }
+    int main() {
+      float _someFloat;
+      
+      _someFloat = doSomethingRedundant();
+      continue; // Continue not in loop
+      return 1;
+    }

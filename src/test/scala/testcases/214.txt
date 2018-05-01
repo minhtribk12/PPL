@@ -1,0 +1,11 @@
+
+    int main(){
+      if (!a) {
+        if (a <= b) a = 1 + c;
+        else a = 0;
+      } else {
+        if (f()) a = 1;
+        else {}
+      }
+    }
+    

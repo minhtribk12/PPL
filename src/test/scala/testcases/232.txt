@@ -1,0 +1,5 @@
+
+	void test()  { int a; return; }
+	void test2() { int b; return; }
+	int main() {}
+    

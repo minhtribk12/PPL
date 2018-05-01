@@ -1,0 +1,11 @@
+
+			void calc(){
+				int a;
+				int b;
+				b=galaxy();
+			}
+			int galaxy(int r){
+				return 100;
+			}
+		}
+		

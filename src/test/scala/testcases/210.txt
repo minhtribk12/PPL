@@ -1,0 +1,9 @@
+
+    int a;
+    boolean equal(int b) {
+        if(a == b) return true;
+        return false;
+    }
+    int main() {
+    }
+    

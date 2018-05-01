@@ -1,0 +1,11 @@
+
+			void f(int a) {
+				
+			}
+      	int b[2],d,k;
+      	string f;
+			float k(int a, int b) {
+				
+			}
+      	int main(string [] a, int b){}
+		

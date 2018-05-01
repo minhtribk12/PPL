@@ -1,0 +1,12 @@
+
+    int a;
+    int min(int b, int c, int d) {
+        int rs;
+        rs = b;
+        if (rs > c) rs = c;
+        else if (rs > d) rs = d;
+        return rs;
+    }
+    int main(){
+    }
+    

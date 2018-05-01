@@ -1,0 +1,17 @@
+
+    int cubic(int a)
+    {
+      return a * a * a;
+    }
+
+    int main()
+    {
+      int i;
+      for(i = 0; i < 10; i = i + 1)
+      {
+        a = cubic(a);
+      }
+      printf("a = %d\n", a); 
+      return 0;
+    }
+    

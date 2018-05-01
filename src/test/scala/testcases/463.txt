@@ -1,0 +1,11 @@
+
+    int main() {
+      int a;
+      float check;
+
+        if (check) 
+          a = 1;
+        else 
+          a = 2;
+    }
+    

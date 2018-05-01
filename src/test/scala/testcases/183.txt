@@ -1,0 +1,11 @@
+
+			void main(){
+				int a[5];
+				float b[5];
+				void result()
+				{
+					a[2] = b[2];
+				}
+			}
+
+		

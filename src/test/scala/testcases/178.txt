@@ -1,0 +1,12 @@
+
+			int factorial(int n){
+				return 1;
+			}
+			void main(){
+				boolean x;
+				int a[5];
+				float b[4];
+				a[0]=333*4%5;
+			}
+
+		

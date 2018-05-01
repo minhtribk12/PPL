@@ -1,0 +1,5 @@
+
+			void f(int a) {
+				for (a; b; c) {}
+			}
+		

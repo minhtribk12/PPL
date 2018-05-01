@@ -1,0 +1,13 @@
+
+    int[] tong(int a[], int b)
+    {
+      a[1] = a[2] + 1;
+      a[b[2]] = 1;
+    }
+    int main()
+    {
+      int a[2], b, c;
+      c = tong(a[d], b);
+      return 0;
+    }
+    

@@ -1,0 +1,4 @@
+
+	int a, b, c[5];
+	void func(int a, boolean b[]){}
+    

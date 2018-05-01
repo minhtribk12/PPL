@@ -1,0 +1,23 @@
+
+	int number, i, j;
+
+	int main()
+	{
+		printf("Enter a positive integer: ");
+		scanf("%d", number);
+
+		printf("Factors of %d are: ", number);
+		for(i = 1; i <= number; i = i + 1)
+		{
+			if (number / i == 0){
+				printf("%d ",i);
+				for(j = 0; j < 50; j = j + 1)
+					number = 2 * j;
+			}
+			else
+				break;
+		}
+
+		return 0;
+	}
+    

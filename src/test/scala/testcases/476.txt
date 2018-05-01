@@ -1,0 +1,16 @@
+
+    int main() {
+        int a;
+        int b;
+        int c;
+        int d;
+        
+        return 0; 
+    }
+
+    int test(int dup, int dup){
+        int e;
+        int f;
+        int g;
+        int h;
+    }

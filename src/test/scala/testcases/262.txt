@@ -1,0 +1,50 @@
+
+	/* var declaration */
+	int i;
+
+	// function declaration
+	int f(int a, int b){
+		a = 1;
+		b = 2;
+		return 200;
+	}
+
+	int main(){
+		// declaration part
+		int m;
+
+		// statement part
+		main = f();
+		putIntLn(i);
+		{	// block statement
+			int i;
+			int main;
+			int f;
+
+			main = f = i = 100;
+			putIntLn(i);
+			putIntLn(main);
+			putIntLn(f);
+
+			if (i > 1)
+				main = 2;
+
+			for (i = 0; i < 100; i = i * 2){
+				printf("number = %d\n", i);
+			}
+
+			do
+				i = i + 1;
+				decrease(i);
+			while (i < 0);
+		}
+
+		if (f == 1)
+			g[1] = 1;
+		else
+			g[1] = 0;
+
+		putIntLn(main);
+
+	}
+    

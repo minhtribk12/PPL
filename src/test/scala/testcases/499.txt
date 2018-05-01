@@ -1,0 +1,19 @@
+
+    int sum(int a, int b) {
+      int tong;
+      float src;
+      tong = a + b;
+      return tong;
+    }
+
+    float sub(float a, float b, float thisbug, float thisbug1) {
+      float hieu;
+      float src;
+      hieu = a - b;
+      return hieu;
+    }
+
+    int main() {
+      sum(5 + 1, 1 + 6);
+      sub(5 * 1, 1 * 4);
+    }

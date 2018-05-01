@@ -1,0 +1,23 @@
+
+    float a;
+    boolean b;
+    int c[5];
+    float test(){
+      int f;
+      return f;
+    }
+
+    void main(){
+      /* declaration */
+      float d;
+
+      // statement part
+      int e;
+      for(e = 1; e < 100; e = e + 1){
+        a = 100;
+        b = true;
+        d = a;
+        f = f + 2;	// this is error
+      }
+      return;
+    }

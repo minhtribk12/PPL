@@ -1,0 +1,36 @@
+
+	/* var declaration */
+	int i;
+
+	// function declaration
+	int f(){
+		return 200;
+	}
+
+	int main(){
+		// declaration part
+		int main;
+
+		// statement part
+		main = f();
+		putIntLn(i);
+		{	// block statement
+			int i;
+			int main;
+			int f;
+
+			main = f = i = 100;
+			putIntLn(i);
+			putIntLn(main);
+			putIntLn(f);
+		}
+
+		if (f == 1)
+			g[1] = 1;
+		else
+			g[1] = 0;
+
+		putIntLn(main);
+
+	}
+    

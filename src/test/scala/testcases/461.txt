@@ -1,0 +1,23 @@
+
+    int abs;
+
+    int Abs(int input) {
+        if (input < 0) input = input * 1;
+        return input;
+    }
+
+    int main() {
+        int abs;
+        abs = 0;
+        if (abs == 0) {
+            int abs;
+            boolean a;
+            abs = Abs(abs);
+        }
+        if (abs != 0) {
+            int abs;
+            boolean abs;
+            abs = Abs(abs);
+        }    
+        return 0;
+    }

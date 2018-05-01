@@ -1,0 +1,10 @@
+
+      	int a;
+			void f(int a, float b[]) {
+				
+			}
+      	int b[2];
+			string k() {
+				
+			}
+		

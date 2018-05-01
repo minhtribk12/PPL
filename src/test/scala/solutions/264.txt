@@ -1,0 +1,1 @@
+Program(List(FuncDecl(Id("main"),List(),IntType,Block(List(VarDecl(Id("number"),IntType)),List(CallExpr(Id("printf"),List(StringLiteral("Enter an integer: "))),CallExpr(Id("scanf"),List(StringLiteral("%d"),Id("number"))),CallExpr(Id("printf"),List(StringLiteral("You entered: %d"),Id("number"))),Return(Some(IntLiteral(0))))))))

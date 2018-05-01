@@ -1,0 +1,14 @@
+
+			void move(){
+				int a,b,c;
+				float x,y,z;
+				
+				c = a/b;
+				c = a/b;
+				c = a/y;
+				c = a+y;
+				z = x/y;
+				z = x+a;
+				z = x/y;
+			}
+		

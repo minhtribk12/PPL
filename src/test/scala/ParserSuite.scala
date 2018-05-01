@@ -324,7 +324,9 @@ class ParserSuite  extends FunSuite with TestParser {
 	test("Expression: ADD SUBTRACT") {
 		val input = """
 			void f() {
-				a = a + b - c;
+				s > a*u = a < b && c;
+				a*b[u] = u;
+				a*b > k*u[j] = o;
 			}
 		"""
 		val expect = "sucessful"
@@ -407,7 +409,7 @@ class ParserSuite  extends FunSuite with TestParser {
 	test("Expression: INDEX 2") {
 		val input = """
 			void f() {
-				a = a[a + b];
+				a = a=a=a;
 			}
 		"""
 		val expect = "sucessful"

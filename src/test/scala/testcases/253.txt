@@ -1,0 +1,12 @@
+
+	int a, b, c[5];
+
+	int main(){
+		/* declaration */
+		float d;
+		int e, f, g[7];
+
+		// statement part
+		return putInt(a);
+	}
+    

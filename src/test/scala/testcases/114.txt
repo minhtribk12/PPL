@@ -1,0 +1,10 @@
+
+			boolean a;
+			int b;
+			string c;
+			float d;
+			boolean f() {}
+			string f() {}
+			float f(){}
+			int f() {}
+		

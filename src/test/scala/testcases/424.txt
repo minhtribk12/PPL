@@ -1,0 +1,12 @@
+
+    int foo(){
+	    int a, b;
+      a= b= 4;	
+      return b* 4+ a;	
+    }
+    int main(){
+      int c;
+      c= foo();
+      return foo1();
+    }
+    

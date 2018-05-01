@@ -1,0 +1,16 @@
+
+    int a;
+    int max(int b, int c, int d) {
+        int rs;
+        rs = b;
+        if (rs < c) 
+            if (c > d) rs = c; 
+            else rs = d;
+        else if (rs < d) 
+            if (d > c) rs = d; 
+            else rs = c;
+        return rs;
+    }
+    int main(){
+    }
+    

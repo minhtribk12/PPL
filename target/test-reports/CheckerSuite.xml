@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="Tris-Air" name="CheckerSuite" tests="100" errors="0" failures="0" skipped="0" time="2.586">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="jna.platform.library.path" value="/usr/lib:/usr/lib"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/><property name="java.vm.version" value="25.144-b01"/><property name="user.country.format" value="VN"/><property name="gopherProxySet" value="false"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/Users/minhtribk12/Google_Drive/Study/Master/Principles of Programming Languages/Assignment/source/initial"/><property name="java.runtime.version" value="1.8.0_144-b01"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed"/><property name="os.arch" value="x86_64"/><property name="java.io.tmpdir" value="/var/folders/xr/wmhp92nx42ggf5zcb6ghvwsm0000gn/T/"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/var/folders/xr/wmhp92nx42ggf5zcb6ghvwsm0000gn/T/jna-1093830463/jna4666207521087397026.tmp"/><property name="java.library.path" value="/Users/minhtribk12/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="sun.awt.enableExtraMouseButtons" value="true"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.12.6"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="user.home" value="/Users/minhtribk12"/><property name="user.timezone" value="Asia/Ho_Chi_Minh"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/usr/local/Cellar/sbt/1.1.1/libexec/bin/sbt-launch.jar"/><property name="user.name" value="minhtribk12"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/usr/local/Cellar/sbt/1.1.1/libexec/bin/sbt-launch.jar"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_144"/><property name="java.ext.dirs" value="/Users/minhtribk12/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.font.fontmanager" value="sun.font.CFontManager"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
+    </properties>
+                     <testcase classname="CheckerSuite" name="Undeclared Function" time="0.393">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression: getInt" time="0.031">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression: putIntLn" time="0.022">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Check with AST" time="0.01">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Check with AST putIntLn with float" time="0.007">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Variable" time="0.012">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Variable 2" time="0.019">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Variable 3" time="0.006">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Statement 11" time="0.061">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Function Not Return 12" time="0.036">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 13" time="0.045">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 14" time="0.147">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 15" time="0.014">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 16" time="0.012">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Function Not Return 17" time="0.006">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Function Not Return 18" time="0.015">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Break Not In Loop 19" time="0.185">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 110" time="0.036">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Statement 111" time="0.017">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Statement 112" time="0.019">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Statement 113" time="0.096">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Statement 114" time="0.059">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="cUndeclared Function 115" time="0.009">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Function 116" time="0.014">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Function 117" time="0.072">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Function 118" time="0.05">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Function 119" time="0.116">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 120" time="0.009">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Parameter 121" time="0.043">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Variable 122" time="0.009">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Variable 123" time="0.009">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="No Entry Point 124" time="0.092">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Statement 125" time="0.017">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 126" time="0.009">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Identifier 127" time="0.012">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 128" time="0.01">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Continue Not In Loop 129" time="0.006">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Continue Not In Loop 130" time="0.007">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Continue Not In Loop 131" time="0.009">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Continue Not In Loop 132" time="0.044">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Continue Not In Loop 133" time="0.012">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="No Entry Point 134" time="0.071">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Identifier 135" time="0.026">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Identifier 136" time="0.016">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Identifier 137" time="0.052">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Identifier 138" time="0.035">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Parameter 139" time="0.011">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Variable 140" time="0.007">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Variable 141" time="0.012">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="No Entry Point 142" time="0.012">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 143" time="0.01">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Statement 144" time="0.011">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Statement 145" time="0.007">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Statement 146" time="0.016">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Statement 147" time="0.011">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Function Not Return 148" time="0.011">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 149" time="0.013">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Variable 150" time="0.019">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Variable 151" time="0.006">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Variable 152" time="0.01">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Variable 153" time="0.007">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Variable 154" time="0.007">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Statement 155" time="0.008">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Statement 156" time="0.007">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Identifier 157" time="0.008">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Identifier 158" time="0.008">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Identifier 159" time="0.008">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Identifier 160" time="0.016">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Function 161" time="0.007">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Function 162" time="0.004">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 163" time="0.005">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 164" time="0.006">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 165" time="0.006">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 166" time="0.013">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 167" time="0.01">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Parameter 168" time="0.007">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Function Not Return 169" time="0.015">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Parameter 170" time="0.007">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Variable 171" time="0.007">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Variable 172" time="0.007">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Variable 173" time="0.008">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="No Entry Point 174" time="0.008">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Variable 175" time="0.012">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Statement 176" time="0.008">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Identifier 177" time="0.016">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Identifier 178" time="0.006">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Identifier 179" time="0.019">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Identifier 180" time="0.006">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Function 181" time="0.016">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Function 182" time="0.006">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 183" time="0.009">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 184" time="0.016">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 185" time="0.024">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 186" time="0.007">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 187" time="0.007">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 188" time="0.014">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Undeclared Identifier 189" time="0.015">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Redeclared Parameter 190" time="0.007">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Type Mismatch In Expression 191" time="0.038">
+                                                 
+                                               </testcase><testcase classname="CheckerSuite" name="Unreachable Statement 192" time="0.028">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

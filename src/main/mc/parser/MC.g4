@@ -1,6 +1,6 @@
 /**
- * Student name:
- * Student ID:
+ * Student name: Nguyen Minh Tri
+ * Student ID: 1770026
  */
 grammar MC;
 
@@ -97,29 +97,45 @@ continuestmt: CONTINUE SEMI ;
 
 returnstmt: RETURN SEMI | RETURN expression SEMI ;
 
-expression: LB expression RB
-        |   ID LSB expression RSB
-        |   naexpression LSB expression RSB
-        |   <assoc=right> (SUB|NOT) expression
-        |   <assoc=left> expression (DIV | MUL | MOL) expression
-        |   <assoc=left> expression (ADD | SUB) expression
-        |   naexpression (LT | LEQ | GT | GEQ) naexpression // non-associate expression
-        |   naexpression (EQ | NEQ) naexpression
-        |   <assoc=left> expression AND expression
-        |   <assoc=left> expression OR expression
-        |   <assoc=right> expression ASSIGN expression 
-        |   operand
-        ;
+// expression: operand
+//         |   LB expression RB
+//         |   naexpression LSB expression RSB
+//         |   <assoc=right> (SUB|NOT) expression
+//         |   <assoc=left> expression (DIV | MUL | MOL) expression
+//         |   <assoc=left> expression (ADD | SUB) expression
+//         |   naexpression (LT | LEQ | GT | GEQ) naexpression // non-associate expression
+//         |   naexpression (EQ | NEQ) naexpression
+//         |   <assoc=left> expression AND expression
+//         |   <assoc=left> expression OR expression
+//         |   <assoc=right> expression ASSIGN expression 
+//         ;
 
-naexpression: LB expression RB
-        |   <assoc=right> (SUB|NOT) naexpression
-        |   <assoc=left> naexpression (DIV | MUL | MOL) naexpression
-        |   <assoc=left> naexpression (ADD | SUB) naexpression
-        |   <assoc=left> naexpression AND naexpression
-        |   <assoc=left> naexpression OR naexpression
-        |   <assoc=right> naexpression ASSIGN naexpression
-        |   operand
-        ;
+// naexpression: operand
+//         |   LB expression RB
+//         |   <assoc=right> (SUB|NOT) naexpression
+//         |   <assoc=left> naexpression (DIV | MUL | MOL) naexpression
+//         |   <assoc=left> naexpression (ADD | SUB) naexpression 
+//         ;
+
+expression: <assoc=right> expression ASSIGN expression | exp1 ;
+
+exp1: <assoc=left> exp1 OR exp1 | exp2 ;
+
+exp2: <assoc=left> exp2 AND exp2 | exp3 ;
+
+exp3: exp5 (EQ | NEQ) exp5 | exp4 ;
+
+exp4: exp5 (LT | LEQ | GT | GEQ) exp5 | exp5 ;
+
+exp5: <assoc=left> exp5 (ADD | SUB) exp5 | exp6 ;
+
+exp6: <assoc=left> exp6 (DIV | MUL | MOL) exp6 | exp7 ;
+
+exp7: <assoc=right> (SUB|NOT) exp7 | exp8 ; 
+
+exp8: exp9 LSB expression RSB | exp9 ;
+
+exp9: LB expression RB | operand ;
 
 operand: literal | ID | funcall ;
 
@@ -143,15 +159,15 @@ BOOLTYPE: 'boolean' ;
 
 INTTYPE: 'int' ;
 
-INTLIT: '-'?DIGIT+ ;
+INTLIT: DIGIT+ ;
 
 FLOATTYPE: 'float' ;
 
-FLOATLIT: FLOATDIGIT EXP? | '-'?DIGIT+EXP;
+FLOATLIT: FLOATDIGIT EXP? | DIGIT+EXP;
 
-fragment EXP: [eE]INTLIT; //notice 1e01
+fragment EXP: [eE](SUB)?INTLIT; //notice 1e01
 
-fragment FLOATDIGIT: '-'?(DIGIT+'.'DIGIT* | DIGIT*'.'DIGIT+) ;
+fragment FLOATDIGIT: DIGIT+'.'DIGIT* | DIGIT*'.'DIGIT+ ;
 
 fragment DIGIT: [0-9] ;
 

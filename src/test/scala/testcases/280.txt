@@ -1,0 +1,16 @@
+
+	int main() {
+		int fp;
+		boolean c;
+		(5 > 3) * (3 > 2);
+		fp = fopen(__FILE__, "r");
+		do
+			c = getc(fp);
+			putchar(c);
+		while (c != EOF);
+		
+		fclose(fp);
+		return 0;
+	}
+
+    

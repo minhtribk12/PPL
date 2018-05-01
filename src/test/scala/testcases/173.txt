@@ -1,0 +1,14 @@
+
+			int i;
+			
+			void f() {
+				
+			} 
+			
+			void main() {
+				f(1);
+				break;
+				if (a == b) return 1;
+				else return;
+			}
+		

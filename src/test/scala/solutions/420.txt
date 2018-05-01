@@ -1,0 +1,1 @@
+Type Mismatch In Statement: Dowhile(List(Block(List(VarDecl(Id("local_x"),IntType)),List(BinaryOp("=",Id("local_x"),Id("global_y")),BinaryOp("=",Id("global_z"),BooleanLiteral(true))))),BinaryOp("=",BinaryOp("-",Id("global_x"),Id("para_x")),IntLiteral(0)))

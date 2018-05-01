@@ -1,0 +1,59 @@
+
+    int a, b[2];
+    float c, d[2];
+    void test(string k[], string a, float b, boolean c)
+    {
+      {
+        a = b;
+      }
+      k[1] = b = a + b * true = c;
+    }
+    float[] _test2_(boolean k[])
+    {
+      /*
+      asdfa //
+      asdf
+      */
+      int f[2], y, x[2];
+      f = 2.3;
+      u = -2;
+      n = !-a + b;
+      foo(3)[a[1]] = b[c[foo(e)]] + 2;
+      {
+        //afdadfad /*
+        int a_8, _h7, L_, c[4];
+        k[a] = 1;
+        break;
+        return;
+        a == (c == d);
+        return k[c];
+        continue;
+        do
+        {
+          {
+            b = -22.3;
+            e = 23.32e-2;
+            f = 1.;
+            y = .1;
+            x = 1E-2;
+            k = .1E23;
+            c = 1;
+            d = true;
+            i = false;
+            a = "abc";
+            l = "\n \b \r \b \t \f \" \' \\ ";
+          }
+        }
+        while(a);
+      }
+      g = 3.2;
+    }
+    string e, f[2];
+    boolean g, h[2];
+    int main()
+    {
+      int a, b, c;
+      c = tong(a, b);
+      return 0;
+    }
+    

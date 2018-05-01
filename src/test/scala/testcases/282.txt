@@ -1,0 +1,26 @@
+
+	int main()
+	{
+		int num, count, sum;
+		sum = 0;
+
+		printf("Enter a positive integer: ");
+		scanf("%d", num);
+
+		// for loop terminates when n is less than count
+		for(count = 1; count <= num; count = count + 1)
+		{
+			sum = sum + count;
+			if(sum == 100)
+				break;
+			else{
+				for(num = 1; num < 50; num = num + 1)
+					sum = sum + 2 * count;
+			}
+		}
+
+		printf("Sum = %d", sum);
+
+		return 0;
+	}
+    

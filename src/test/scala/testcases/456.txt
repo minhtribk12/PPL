@@ -1,0 +1,20 @@
+
+    int x;
+    int y;
+    int compare ( int a){
+      int i;
+      x = 10;
+      y = 9;
+      for (i = 0; i < a ; i= i + 1){
+        a = a + 1;
+      }
+      if ( a == x)
+      return y;
+    }
+    int result () {
+      int z;
+      z = compare (10);
+      if (z = y)
+      return 1;
+      else return 0;
+    }

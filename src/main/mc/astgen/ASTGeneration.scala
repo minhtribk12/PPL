@@ -96,27 +96,75 @@ class ASTGeneration extends MCBaseVisitor[Any] {
     else Return(None)
   }
 
+  // override def visitExpression(ctx:ExpressionContext) = {
+  //   if(ctx.getChildCount() == 1) ctx.operand.accept(this)
+  //   else if (ctx.getChildCount == 2) UnaryOp(ctx.getChild(0).getText, ctx.getChild(1).accept(this).asInstanceOf[Expr])
+  //   else if (ctx.getChildCount == 3){
+  //     if(ctx.LB != null) ctx.getChild(1).accept(this)
+  //     else BinaryOp(ctx.getChild(1).getText, ctx.getChild(0).accept(this).asInstanceOf[Expr], ctx.getChild(2).accept(this).asInstanceOf[Expr])
+  //   }
+  //   else ArrayCell(ctx.getChild(0).accept(this).asInstanceOf[Expr], ctx.getChild(2).accept(this).asInstanceOf[Expr])
+  // }
+
+  // override def visitNaexpression(ctx:NaexpressionContext) = {
+  //   if(ctx.getChildCount() == 1) ctx.operand.accept(this)
+  //   else if (ctx.getChildCount == 2) UnaryOp(ctx.getChild(0).getText, ctx.getChild(1).accept(this).asInstanceOf[Expr])
+  //   else if (ctx.getChildCount == 3){
+  //     if(ctx.LB != null) ctx.getChild(1).accept(this)
+  //     else BinaryOp(ctx.getChild(1).getText, ctx.getChild(0).accept(this).asInstanceOf[Expr], ctx.getChild(2).accept(this).asInstanceOf[Expr])
+  //   }
+  // }
+
   override def visitExpression(ctx:ExpressionContext) = {
-    if(ctx.getChildCount() == 1) ctx.operand.accept(this)
-    else if (ctx.getChildCount == 2) UnaryOp(ctx.getChild(0).getText, ctx.getChild(1).accept(this).asInstanceOf[Expr])
-    else if (ctx.getChildCount == 3){
-      if(ctx.LB != null) ctx.getChild(1).accept(this)
-      else BinaryOp(ctx.getChild(1).getText, ctx.getChild(0).accept(this).asInstanceOf[Expr], ctx.getChild(2).accept(this).asInstanceOf[Expr])
-    }
-    else {
-      if(ctx.ID != null) ArrayCell(Id(ctx.ID.getText).asInstanceOf[Expr], ctx.getChild(2).accept(this).asInstanceOf[Expr])
-      else ArrayCell(ctx.getChild(0).accept(this).asInstanceOf[Expr], ctx.getChild(2).accept(this).asInstanceOf[Expr])
-    }
+    if (ctx.getChildCount() == 1) ctx.getChild(0).accept(this)
+    else BinaryOp(ctx.getChild(1).getText, ctx.getChild(0).accept(this).asInstanceOf[Expr], ctx.getChild(2).accept(this).asInstanceOf[Expr])
   }
 
-  override def visitNaexpression(ctx:NaexpressionContext) = {
-    if(ctx.getChildCount() == 1) ctx.operand.accept(this)
-    else if (ctx.getChildCount == 2) UnaryOp(ctx.getChild(0).getText, ctx.getChild(1).accept(this).asInstanceOf[Expr])
-    else if (ctx.getChildCount == 3){
-      if(ctx.LB != null) ctx.getChild(1).accept(this)
-      else BinaryOp(ctx.getChild(1).getText, ctx.getChild(0).accept(this).asInstanceOf[Expr], ctx.getChild(2).accept(this).asInstanceOf[Expr])
-    }
-  } 
+  override def visitExp1(ctx:Exp1Context) = {
+    if (ctx.getChildCount() == 1) ctx.getChild(0).accept(this)
+    else BinaryOp(ctx.getChild(1).getText, ctx.getChild(0).accept(this).asInstanceOf[Expr], ctx.getChild(2).accept(this).asInstanceOf[Expr])
+  }
+
+  override def visitExp2(ctx:Exp2Context) = {
+    if (ctx.getChildCount() == 1) ctx.getChild(0).accept(this)
+    else BinaryOp(ctx.getChild(1).getText, ctx.getChild(0).accept(this).asInstanceOf[Expr], ctx.getChild(2).accept(this).asInstanceOf[Expr])
+  }
+
+  override def visitExp3(ctx:Exp3Context) = {
+    if (ctx.getChildCount() == 1) ctx.getChild(0).accept(this)
+    else BinaryOp(ctx.getChild(1).getText, ctx.getChild(0).accept(this).asInstanceOf[Expr], ctx.getChild(2).accept(this).asInstanceOf[Expr])
+  }
+
+  override def visitExp4(ctx:Exp4Context) = {
+    if (ctx.getChildCount() == 1) ctx.getChild(0).accept(this)
+    else BinaryOp(ctx.getChild(1).getText, ctx.getChild(0).accept(this).asInstanceOf[Expr], ctx.getChild(2).accept(this).asInstanceOf[Expr])
+  }
+
+  override def visitExp5(ctx:Exp5Context) = {
+    if (ctx.getChildCount() == 1) ctx.getChild(0).accept(this)
+    else BinaryOp(ctx.getChild(1).getText, ctx.getChild(0).accept(this).asInstanceOf[Expr], ctx.getChild(2).accept(this).asInstanceOf[Expr])
+  }
+
+  override def visitExp6(ctx:Exp6Context) = {
+    if (ctx.getChildCount() == 1) ctx.getChild(0).accept(this)
+    else BinaryOp(ctx.getChild(1).getText, ctx.getChild(0).accept(this).asInstanceOf[Expr], ctx.getChild(2).accept(this).asInstanceOf[Expr])
+  }
+
+  override def visitExp7(ctx:Exp7Context) = {
+    if (ctx.getChildCount() == 1) ctx.getChild(0).accept(this)
+    else UnaryOp(ctx.getChild(0).getText, ctx.getChild(1).accept(this).asInstanceOf[Expr])
+  }
+
+  override def visitExp8(ctx:Exp8Context) = {
+    if (ctx.getChildCount() == 1) ctx.getChild(0).accept(this)
+    else ArrayCell(ctx.getChild(0).accept(this).asInstanceOf[Expr], ctx.getChild(2).accept(this).asInstanceOf[Expr])
+  }
+  
+
+  override def visitExp9(ctx:Exp9Context) = {
+    if (ctx.getChildCount() == 1) ctx.getChild(0).accept(this)
+    else ctx.getChild(1).accept(this)
+  }
 
   override def visitOperand(ctx:OperandContext) = {
     if(ctx.literal != null) ctx.literal.accept(this)
@@ -134,6 +182,4 @@ class ASTGeneration extends MCBaseVisitor[Any] {
   override def visitFuncall(ctx:FuncallContext) = CallExpr(Id(ctx.ID.getText), ctx.arglist.accept(this).asInstanceOf[List[Expr]])
 
   override def visitArglist(ctx:ArglistContext) = ctx.expression().asScala.toList.map(_.accept(this).asInstanceOf[Expr])
-
-  override def visitTerminal(node:TerminalNode) = node.getText
 }

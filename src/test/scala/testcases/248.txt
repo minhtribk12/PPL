@@ -1,0 +1,13 @@
+
+	int a, b, c[5];
+
+	int main(){
+		/* declaration */
+		float d;
+		int e, f, g[7];
+
+		// statement part
+		for(e = 1; e < 100; e = e + 1)
+			f = f + 2;
+	}
+    

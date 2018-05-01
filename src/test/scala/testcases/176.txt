@@ -1,0 +1,24 @@
+
+			int a;
+			string b;
+			void b(){
+				b="kha";	
+			}
+			int foo(int a, int c){
+				for (i = 1; i <=4; i + 1){
+					if(i%2==0) {
+						print(i);			
+					}	
+				} 
+				return a+c;	
+			}
+			float c,d,e;
+			string kha(string b){
+				int x,y,z;		
+				a=b+c;
+				t=x+y/z*y%d;
+				foo(foo(x,y),z);
+			}
+
+			
+		

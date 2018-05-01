@@ -1,0 +1,5 @@
+
+			void f(int a) {
+				foo(a,a + b, c);
+			}
+		

@@ -1,0 +1,17 @@
+
+    int max(int a, int b)
+    {
+      if (a > b)
+        return a;
+      else
+        return b;
+    }
+
+    int main()
+    {
+      int c, d, e;
+      e = max(c,d);
+      printf("e = %d\n", e);
+      return 0;
+    }
+    

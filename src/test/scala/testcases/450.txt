@@ -1,0 +1,7 @@
+
+    boolean getBool(){
+      return true;
+    }
+    int main(){
+      return 1;
+    }

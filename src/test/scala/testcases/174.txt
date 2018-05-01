@@ -1,0 +1,8 @@
+
+			int a;
+			void main(){
+				int b[100];
+				b = 5;
+			}	
+			
+		

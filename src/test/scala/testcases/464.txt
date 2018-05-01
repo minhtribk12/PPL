@@ -1,0 +1,23 @@
+
+    int sum(int a, int b, int c) {
+      int tong;
+      tong = a;
+      tong = tong + b;
+      tong = tong + c;
+      return tong;
+    }
+
+    int sum_error(int a, int b, int c) {
+      int tong;
+      tong = a;
+      tong = tong + b;
+      tong = tong + c;
+      return true;
+    }
+
+    int main() {
+      int tong1;
+      int tong2;
+      tong1 = sum(1, 2, 3);
+      tong2 = sum_error(1, 2, 3);
+    }

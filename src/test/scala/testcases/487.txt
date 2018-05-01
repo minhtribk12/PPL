@@ -1,0 +1,15 @@
+
+    int a;
+    int b;
+
+    void main(){
+      /* declaration */
+      float p;
+      int e, f, g[7];
+
+      // statement part
+      if (e == 2)
+        h = 1;	// this is error
+
+      return;
+    }

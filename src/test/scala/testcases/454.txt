@@ -1,0 +1,18 @@
+
+    int main (){
+      int max;
+      int i, y;
+      for (i =0; i < 10; i = i +1){
+        max = max + 1;
+      }
+      do max -1;
+      while (max == y);
+      return max;
+    }
+    void wrong (){
+      int a;
+      int b;
+      b = a + 10;
+      a = b + 100;
+      return 1;
+    }

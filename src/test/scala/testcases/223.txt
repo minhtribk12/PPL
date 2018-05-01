@@ -1,0 +1,32 @@
+
+	int func1(int para1){
+		float r;
+		para1 = r+3;
+		return para1;
+	}
+	boolean func2(int para1, float para2){
+		boolean a;
+		if(para1>para2){
+			a = true;
+		}
+		else{
+			a = false;
+		}
+		return a;
+	}
+	void main(){
+		int pf_1;
+		int i;
+		boolean _flag;
+		pf_1 = func1(6);
+		for(i=0;i>5;i=i+1){
+			if(_flag==false){
+				pf_1 = i + 5;
+			}
+			else {
+				pf_1 = i + 6;
+				}
+		}
+	}
+
+    

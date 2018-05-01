@@ -1,0 +1,7 @@
+
+			void f(int a) {
+				do 
+					break;
+				while (a == b);
+			}
+		

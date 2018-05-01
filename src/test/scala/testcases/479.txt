@@ -1,0 +1,8 @@
+
+    int main()
+    {
+        int e,c,f;
+        boolean c;
+        c = e;
+        return 0;
+    }

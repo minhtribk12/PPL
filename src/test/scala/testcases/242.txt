@@ -1,0 +1,8 @@
+
+	int a, b, c[5];
+	int main(){
+		float d;
+		int e;
+		boolean f[5];
+	}
+    

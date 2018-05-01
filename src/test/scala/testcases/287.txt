@@ -1,0 +1,21 @@
+
+	int main(){
+		int num;
+		num = 1;
+
+		print(num);
+
+		return 0;
+	}
+
+	int print(int num){
+		if(num <= 100){
+			printf("%d ",num);
+			print(num + 1);
+			if(num == 50)
+				num = num + 2;
+			else
+				num = num + 3;
+		}
+	}
+    

@@ -1,0 +1,9 @@
+
+			void f(int a) {
+				do 
+					break;
+					{}
+					{}
+				while (true);
+			}
+		

@@ -1,0 +1,29 @@
+
+	int num, r, sum, temp;
+	int min, max;
+	float arr[100];
+
+	int main(){
+
+		printf("Enter the minimum range: ");
+		scanf("%d", min);
+
+		printf("Enter the maximum range: ");
+		scanf("%d", max);
+
+		printf("Armstrong numbers in given range are: ");
+		for(num = min; num <= max; num = num + 1){
+			temp = num;
+			sum = 0;
+
+			for (temp; temp != 0; temp = temp / 10){
+				 r = temp / 10;
+				 sum=sum + (r * r * r);
+			}
+			if(sum == num)
+				 printf("%d ", num);
+		}
+
+		return 0;
+	}
+    

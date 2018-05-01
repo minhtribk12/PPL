@@ -1,208 +1,208 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="Tris-MacBook-Air.local" name="ParserSuite" tests="100" errors="0" failures="0" skipped="0" time="1.464">
+<testsuite hostname="Tris-Air" name="ParserSuite" tests="100" errors="0" failures="0" skipped="0" time="1.423">
                      <properties>
       <property name="jline.esc.timeout" value="0"/><property name="jna.platform.library.path" value="/usr/lib:/usr/lib"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/><property name="java.vm.version" value="25.144-b01"/><property name="user.country.format" value="VN"/><property name="gopherProxySet" value="false"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/Users/minhtribk12/Google_Drive/Study/Master/Principles of Programming Languages/Assignment/source/initial"/><property name="java.runtime.version" value="1.8.0_144-b01"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed"/><property name="os.arch" value="x86_64"/><property name="java.io.tmpdir" value="/var/folders/xr/wmhp92nx42ggf5zcb6ghvwsm0000gn/T/"/><property name="line.separator" value="
-"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/var/folders/xr/wmhp92nx42ggf5zcb6ghvwsm0000gn/T/jna-1093830463/jna7215270561189408792.tmp"/><property name="java.library.path" value="/Users/minhtribk12/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.12.6"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="user.home" value="/Users/minhtribk12"/><property name="user.timezone" value="Asia/Ho_Chi_Minh"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/usr/local/Cellar/sbt/1.1.1/libexec/bin/sbt-launch.jar"/><property name="user.name" value="minhtribk12"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/usr/local/Cellar/sbt/1.1.1/libexec/bin/sbt-launch.jar"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_144"/><property name="java.ext.dirs" value="/Users/minhtribk12/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/var/folders/xr/wmhp92nx42ggf5zcb6ghvwsm0000gn/T/jna-1093830463/jna4666207521087397026.tmp"/><property name="java.library.path" value="/Users/minhtribk12/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="sun.awt.enableExtraMouseButtons" value="true"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.12.6"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="user.home" value="/Users/minhtribk12"/><property name="user.timezone" value="Asia/Ho_Chi_Minh"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/usr/local/Cellar/sbt/1.1.1/libexec/bin/sbt-launch.jar"/><property name="user.name" value="minhtribk12"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/usr/local/Cellar/sbt/1.1.1/libexec/bin/sbt-launch.jar"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_144"/><property name="java.ext.dirs" value="/Users/minhtribk12/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.font.fontmanager" value="sun.font.CFontManager"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
     </properties>
-                     <testcase classname="ParserSuite" name="Program contains declarations" time="0.263">
+                     <testcase classname="ParserSuite" name="Program contains declarations" time="0.262">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Program contains declarations 2" time="0.034">
+                                               </testcase><testcase classname="ParserSuite" name="Program contains declarations 2" time="0.011">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Program contains declarations 3" time="0.015">
+                                               </testcase><testcase classname="ParserSuite" name="Program contains declarations 3" time="0.02">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Program contains declarations 4" time="0.009">
+                                               </testcase><testcase classname="ParserSuite" name="Program contains declarations 4" time="0.011">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Variable declarations" time="0.01">
+                                               </testcase><testcase classname="ParserSuite" name="Variable declarations" time="0.007">
                                                  
                                                </testcase><testcase classname="ParserSuite" name="Variable declarations 2" time="0.011">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Variable declarations 3" time="0.011">
+                                               </testcase><testcase classname="ParserSuite" name="Variable declarations 3" time="0.009">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Variable declarations 4" time="0.01">
+                                               </testcase><testcase classname="ParserSuite" name="Variable declarations 4" time="0.014">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Function declarations" time="0.022">
+                                               </testcase><testcase classname="ParserSuite" name="Function declarations" time="0.051">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Function declarations 2" time="0.017">
+                                               </testcase><testcase classname="ParserSuite" name="Function declarations 2" time="0.019">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Function declarations 3" time="0.008">
+                                               </testcase><testcase classname="ParserSuite" name="Function declarations 3" time="0.013">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Function declarations 4" time="0.006">
+                                               </testcase><testcase classname="ParserSuite" name="Function declarations 4" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Nested function" time="0.007">
+                                               </testcase><testcase classname="ParserSuite" name="Nested function" time="0.011">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Primitive type" time="0.008">
+                                               </testcase><testcase classname="ParserSuite" name="Primitive type" time="0.023">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Void type" time="0.008">
+                                               </testcase><testcase classname="ParserSuite" name="Void type" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="PARAMETER error" time="0.008">
+                                               </testcase><testcase classname="ParserSuite" name="PARAMETER error" time="0.005">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Void type error" time="0.006">
+                                               </testcase><testcase classname="ParserSuite" name="Void type error" time="0.008">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Array type" time="0.005">
+                                               </testcase><testcase classname="ParserSuite" name="Array type" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Array type int error" time="0.008">
+                                               </testcase><testcase classname="ParserSuite" name="Array type int error" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Array pointer type" time="0.006">
+                                               </testcase><testcase classname="ParserSuite" name="Array pointer type" time="0.007">
                                                  
                                                </testcase><testcase classname="ParserSuite" name="Array pointer type error" time="0.008">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Array pointer type error 2" time="0.008">
+                                               </testcase><testcase classname="ParserSuite" name="Array pointer type error 2" time="0.005">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Variable initialization" time="0.006">
+                                               </testcase><testcase classname="ParserSuite" name="Variable initialization" time="0.013">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Variable initialization 2" time="0.007">
+                                               </testcase><testcase classname="ParserSuite" name="Variable initialization 2" time="0.002">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: OR" time="0.012">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: OR" time="0.009">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: AND" time="0.013">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: AND" time="0.009">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: GREATER" time="0.021">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: GREATER" time="0.006">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: GREATER 2" time="0.031">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: GREATER 2" time="0.012">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: LESS" time="0.014">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: LESS" time="0.005">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: LESS 2" time="0.026">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: LESS 2" time="0.008">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: GREATER ERROR" time="0.012">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: GREATER ERROR" time="0.015">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: ADD SUBTRACT" time="0.006">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: ADD SUBTRACT" time="0.146">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: MUL DIVIDE" time="0.01">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: MUL DIVIDE" time="0.011">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: MIXED" time="0.037">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: MIXED" time="0.01">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: UNARY" time="0.005">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: UNARY" time="0.01">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: EQUAL" time="0.103">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: EQUAL" time="0.016">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: EQUAL ERROR" time="0.006">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: EQUAL ERROR" time="0.004">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: EQUAL 2" time="0.015">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: EQUAL 2" time="0.008">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: INDEX" time="0.01">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: INDEX" time="0.009">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: INDEX 2" time="0.011">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: INDEX 2" time="0.009">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: INDEX 3" time="0.01">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: INDEX 3" time="0.009">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: INDEX 4" time="0.01">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: INDEX 4" time="0.014">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: INVOCATION" time="0.008">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: INVOCATION" time="0.013">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: INVOCATION 2" time="0.006">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: INVOCATION 2" time="0.012">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: INVOCATION 4" time="0.008">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: INVOCATION 4" time="0.006">
                                                  
                                                </testcase><testcase classname="ParserSuite" name="Expression: INVOCATION 5" time="0.007">
                                                  
                                                </testcase><testcase classname="ParserSuite" name="Expression: INVOCATION 6" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: INVOCATION 7" time="0.007">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: INVOCATION 7" time="0.009">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Expression: INVOCATION 8" time="0.013">
+                                               </testcase><testcase classname="ParserSuite" name="Expression: INVOCATION 8" time="0.008">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="a simple program" time="0.008">
+                                               </testcase><testcase classname="ParserSuite" name="a simple program" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: If-noelse" time="0.009">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: If-noelse" time="0.017">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: If-else" time="0.01">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: If-else" time="0.017">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: If-else 2" time="0.012">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: If-else 2" time="0.03">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: do while" time="0.008">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: do while" time="0.026">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: do while 2" time="0.023">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: do while 2" time="0.015">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: for" time="0.007">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: for" time="0.008">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: for 2" time="0.009">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: for 2" time="0.008">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: break" time="0.007">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: break" time="0.006">
                                                  
                                                </testcase><testcase classname="ParserSuite" name="Statement: break 2" time="0.008">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: continue" time="0.027">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: continue" time="0.012">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: continue 2" time="0.029">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: continue 2" time="0.009">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: return" time="0.038">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: return" time="0.008">
                                                  
                                                </testcase><testcase classname="ParserSuite" name="Statement: return 2" time="0.006">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: return 3" time="0.007">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: return 3" time="0.015">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: expression" time="0.005">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: expression" time="0.009">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: expression 1" time="0.007">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: expression 1" time="0.008">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: expression 2" time="0.01">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: expression 2" time="0.009">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: expression 3" time="0.007">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: expression 3" time="0.015">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: block" time="0.006">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: block" time="0.012">
                                                  
                                                </testcase><testcase classname="ParserSuite" name="Statement: block 2" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: block 3" time="0.006">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: block 3" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: block 4" time="0.008">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: block 4" time="0.014">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Stament: mixed" time="0.023">
+                                               </testcase><testcase classname="ParserSuite" name="Stament: mixed" time="0.01">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="mixed" time="0.009">
+                                               </testcase><testcase classname="ParserSuite" name="mixed" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="mixed 2" time="0.009">
+                                               </testcase><testcase classname="ParserSuite" name="mixed 2" time="0.014">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="mixed 3" time="0.015">
+                                               </testcase><testcase classname="ParserSuite" name="mixed 3" time="0.024">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="mixed 4" time="0.008">
+                                               </testcase><testcase classname="ParserSuite" name="mixed 4" time="0.036">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="mixed 5" time="0.016">
+                                               </testcase><testcase classname="ParserSuite" name="mixed 5" time="0.008">
                                                  
                                                </testcase><testcase classname="ParserSuite" name="mixed 6" time="0.009">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="mixed 7" time="0.011">
+                                               </testcase><testcase classname="ParserSuite" name="mixed 7" time="0.009">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="mixed 8" time="0.017">
+                                               </testcase><testcase classname="ParserSuite" name="mixed 8" time="0.013">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="mixed 9" time="0.016">
+                                               </testcase><testcase classname="ParserSuite" name="mixed 9" time="0.006">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="mixed 10" time="0.011">
+                                               </testcase><testcase classname="ParserSuite" name="mixed 10" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="mixed 11" time="0.004">
+                                               </testcase><testcase classname="ParserSuite" name="mixed 11" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="mixed 12" time="0.01">
+                                               </testcase><testcase classname="ParserSuite" name="mixed 12" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="mixed 13" time="0.005">
+                                               </testcase><testcase classname="ParserSuite" name="mixed 13" time="0.003">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="mixed 14" time="0.009">
+                                               </testcase><testcase classname="ParserSuite" name="mixed 14" time="0.002">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="mixed 15" time="0.007">
+                                               </testcase><testcase classname="ParserSuite" name="mixed 15" time="0.003">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="mixed 16" time="0.009">
+                                               </testcase><testcase classname="ParserSuite" name="mixed 16" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="mixed 17" time="0.008">
+                                               </testcase><testcase classname="ParserSuite" name="mixed 17" time="0.005">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement: do while error" time="0.007">
+                                               </testcase><testcase classname="ParserSuite" name="Statement: do while error" time="0.005">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Statement before declare" time="0.008">
+                                               </testcase><testcase classname="ParserSuite" name="Statement before declare" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="more complex program" time="0.008">
+                                               </testcase><testcase classname="ParserSuite" name="more complex program" time="0.002">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="wrong program" time="0.008">
+                                               </testcase><testcase classname="ParserSuite" name="wrong program" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Function and variable declarations 1" time="0.005">
+                                               </testcase><testcase classname="ParserSuite" name="Function and variable declarations 1" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Function and variable declarations 2" time="0.003">
+                                               </testcase><testcase classname="ParserSuite" name="Function and variable declarations 2" time="0.008">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Function and variable declarations 3" time="0.017">
+                                               </testcase><testcase classname="ParserSuite" name="Function and variable declarations 3" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Function and variable declarations error 1" time="0.012">
+                                               </testcase><testcase classname="ParserSuite" name="Function and variable declarations error 1" time="0.007">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Function and variable declarations error 2" time="0.014">
+                                               </testcase><testcase classname="ParserSuite" name="Function and variable declarations error 2" time="0.006">
                                                  
-                                               </testcase><testcase classname="ParserSuite" name="Function and variable declarations error 3" time="0.013">
+                                               </testcase><testcase classname="ParserSuite" name="Function and variable declarations error 3" time="0.007">
                                                  
                                                </testcase>
                      <system-out><![CDATA[]]></system-out>

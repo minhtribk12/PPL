@@ -1,0 +1,21 @@
+
+	int func1()
+	{
+		for(i = 0; i < n; i = i + 1)
+			for(j = 0; j < i; j = j + 1)
+			{
+				if(j < m)
+				{
+					break;
+				}
+				else
+				{
+					a[j] = a[j] * 2;
+				}
+				sum = sum - (a[i] + a[j]);
+			}
+	}
+	int main() {
+	}
+
+    

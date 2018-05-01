@@ -1,0 +1,22 @@
+
+    int main()
+    {
+      do 
+      {
+        if(a = b)
+        {
+          break;
+        }
+        else
+        {
+          continue;
+        }
+        a = b;
+        c = d;
+      }
+      {
+        a = c;
+      }
+      while(a < b);
+    }
+    

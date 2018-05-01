@@ -1,0 +1,10 @@
+
+			void f(int a) {
+				{
+					float a;
+					float b;
+					
+					a + b;
+				}
+			}
+		

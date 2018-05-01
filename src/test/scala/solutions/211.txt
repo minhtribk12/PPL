@@ -1,0 +1,1 @@
+Program(List(VarDecl(Id("a"),IntType),FuncDecl(Id("plus"),List(VarDecl(Id("b"),IntType)),IntType,Block(List(VarDecl(Id("rs"),IntType)),List(If(BinaryOp(">",Id("b"),IntLiteral(0)),BinaryOp("=",Id("rs"),BinaryOp("+",Id("a"),Id("b"))),Some(BinaryOp("=",Id("rs"),IntLiteral(0)))),Return(Some(Id("rs")))))),FuncDecl(Id("main"),List(),IntType,Block(List(),List()))))

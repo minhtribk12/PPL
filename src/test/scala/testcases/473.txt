@@ -1,0 +1,30 @@
+
+    int sum(int a, int b, int c) {
+      int tong;
+      int tmp;
+      tmp = a + b;
+      tong = tmp + c;
+      return tong;
+    }
+
+    float sum2(float a, float b, float c) {
+      float tong;
+      int tmp;
+      tmp = a + b;
+      tong = tmp + c;
+      return tong;
+    }
+
+    float sub(float a, float b, int c) {
+      float hieu;
+      float tmp;
+      tmp = a - b;
+      hieu = tmp - c;
+      return hieu;
+    }
+
+    int main() {
+      sum(5 + 1, 1 + 6, 2 + 4);
+      sub(5 * 1, 1 * 4, 1 * 1);
+      sum2(1, 2, 3);
+    }

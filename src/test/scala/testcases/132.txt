@@ -1,0 +1,7 @@
+
+			void f() {
+				s > a*u = a < b && c;
+				a*b[u] = u;
+				a*b > k*u[j] = o;
+			}
+		

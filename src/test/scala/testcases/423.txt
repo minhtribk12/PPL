@@ -1,0 +1,8 @@
+
+    int a;
+    float b[4];
+
+    void main() {
+      foo(); 
+    }
+    

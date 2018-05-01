@@ -1,0 +1,5 @@
+
+	int a, b, c[50];
+	float d, e, f[50];
+	void func1(int a, float b[]){}
+    

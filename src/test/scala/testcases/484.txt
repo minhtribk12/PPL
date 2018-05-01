@@ -1,0 +1,12 @@
+
+    int main() {
+      int a;
+      float b;
+      a = a + 1;
+
+        if (b) 
+          a = 1;
+        else 
+          a = 2;
+    }
+    

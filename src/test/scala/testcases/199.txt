@@ -1,0 +1,10 @@
+
+			void f(int a) {
+				int f (int g)
+				{}
+			}
+			float k(int a, int b) {
+				
+			}
+      	int main(string [] a, int b){}
+		

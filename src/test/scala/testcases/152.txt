@@ -1,0 +1,7 @@
+
+			void f(int a) {
+				if (a || b) {}
+				else if (true) {}
+				else {}
+			}
+		

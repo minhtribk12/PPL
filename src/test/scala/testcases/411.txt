@@ -1,0 +1,11 @@
+
+    void foo(){
+      return;
+    }
+    int main(){
+      int x;
+      boolean y;
+      x = true; //error here
+      return 0;
+    }
+    

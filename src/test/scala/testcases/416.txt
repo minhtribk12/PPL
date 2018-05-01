@@ -1,0 +1,10 @@
+
+    int test(){
+      int a;
+      a = 10;
+      return a;
+    }
+    int test2(){
+      int c;
+      c = test();
+    }

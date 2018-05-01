@@ -1,0 +1,31 @@
+
+    int shhh_correct(int a){
+      a = a + 1000;
+      return a;
+    }
+
+    int large_testcase1_correct(){
+      int i;
+      int j, k;
+      i = shhh_correct(1);
+      j = 3/2;
+      for(i; j < 10; j = j + 1)
+        k = j; 
+      return 0;
+    }
+
+
+    int shhh(int a){
+      a = a + 1000;
+      return a;
+    }
+
+    int large_testcase1(){
+      int i;
+      int j, k;
+      i = shhh(1);
+      j = 3/2;
+      for(i; j < 10; j = j + 1)
+        k[i*j] = j; 
+      return 0;
+    }

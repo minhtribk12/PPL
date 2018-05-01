@@ -1,0 +1,10 @@
+
+			void func(string a, string b, float c){
+				int i;
+				for (i = 0; i < 10; i + 1){
+					if (a + b) { 
+						b = a;
+					}
+				}
+			}
+		

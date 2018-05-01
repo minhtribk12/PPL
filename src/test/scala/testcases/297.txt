@@ -1,0 +1,38 @@
+
+	float factorial(int n)
+	{
+		int i, j;
+		int fact;
+		fact = 1;
+	 
+		if(n == 1)
+			return fact;
+	 
+		for(i = n; i >= 1; --i){
+			if(i < 0)
+				continue;
+			else{
+				for(j = 0; j < 100; j = j + 1)
+					fact = fact * i;
+
+				if(j == 90)
+					j = j + 2;
+				else
+					continue;
+			}
+		}
+		return fact;
+	}
+	  
+	int main()
+	{
+		int num;
+	 
+		printf("Enter an integer number :");
+		scanf("%d", num);
+	 
+		printf("\nFactorial of %d is = %ld", num, factorial(num));
+		 
+		return 0;
+	}
+    

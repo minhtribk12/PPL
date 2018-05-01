@@ -1,0 +1,21 @@
+
+    int out;
+
+    int main() {
+        int in;
+        {
+        float in;
+        {
+          boolean in;
+          int out[3];
+        }
+        }
+        {
+        float in;
+        {
+          boolean out;
+          int out[3];
+        }
+        }    
+        return 0;
+    }

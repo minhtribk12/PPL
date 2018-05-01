@@ -1,0 +1,9 @@
+
+    int a, b, c[5];
+    int main(){
+      float k;
+      int e;
+      k = e + 2;
+      f = 1;	// this is error
+      return 0;
+    }

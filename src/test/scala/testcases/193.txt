@@ -1,0 +1,3 @@
+int main () {
+		putIntuLn(4542);
+  	}
