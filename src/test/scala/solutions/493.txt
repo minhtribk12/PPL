@@ -1,1 +1,1 @@
-Type Mismatch In Expression: CallExpr(Id("tich"),List(FloatLiteral(5.5f),StringLiteral("a")))
+Unreachable Function: test

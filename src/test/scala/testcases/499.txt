@@ -5,15 +5,58 @@
       tong = a + b;
       return tong;
     }
-
-    float sub(float a, float b, float thisbug, float thisbug1) {
+    void test()
+    {
+      return;
+    }
+    float sub(float a, float b) {
       float hieu;
       float src;
       hieu = a - b;
       return hieu;
     }
 
-    int main() {
+    int test1(){
+      return 1;
+    }
+    int test2(){
+      return 1;
+    }
+    int test3(){
+      return 1;
+    }
+    int test4(){
+      return 1;
+    }
+
+    int test5(){
+      return 1;
+    }
+    int test6(){
+      return 1;
+    }
+
+    void main() {
+      int a, b;
+      if (a == b)
+      {
+        test1();
+      }
+      else
+        test2();
+      for(a = 1; a < 2; a=a+1)
+      {
+        test3();
+        for(a = 1; a < 2; a=a+1)
+          test4();
+      }
+      do
+      test5();
+      while(true);
+      do{
+        test6();
+      }
+      while(false);
       sum(5 + 1, 1 + 6);
       sub(5 * 1, 1 * 4);
     }

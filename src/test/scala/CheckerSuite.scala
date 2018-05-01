@@ -197,7 +197,8 @@ class CheckerSuite extends FunSuite with TestChecker {
         break;
       }
       break;
-    } """
+    } 
+    """
     val expected = """Break Not In Loop"""
     assert(checkCkr(input,expected,417))
   }
@@ -545,7 +546,7 @@ class CheckerSuite extends FunSuite with TestChecker {
         else a = a + 1;
       return 0;
     }"""
-    val expected = """No Entry Point"""
+    val expected = """Unreachable Function: doSomething"""
     assert(checkCkr(input,expected,432))
   }
   test("Type Mismatch In Statement 125") {
@@ -1236,10 +1237,10 @@ class CheckerSuite extends FunSuite with TestChecker {
     boolean getBool(){
       return true;
     }
-    int main(){
-      return 1;
+    void main(){
+      return ;
     }"""
-    val expected = """No Entry Point"""
+    val expected = """Unreachable Function: getBool"""
     assert(checkCkr(input,expected,450))
   }
   test("Type Mismatch In Expression 143") {
@@ -2123,12 +2124,16 @@ class CheckerSuite extends FunSuite with TestChecker {
       result = a * b;
       return result;
     }
+    void test()
+    {
+      return;
+    }
 
-    int main() {
+    void main() {
       int abc;
-      abc = tich(5.5, "a");
+      abc = tich(2, 2);
     }"""
-    val expected = """Type Mismatch In Expression: CallExpr(Id("tich"),List(FloatLiteral(5.5f),StringLiteral("a")))"""
+    val expected = """Unreachable Function: test"""
     assert(checkCkr(input,expected,493))
   }
   test("Type Mismatch In Expression 186") {
@@ -2254,7 +2259,7 @@ class CheckerSuite extends FunSuite with TestChecker {
     val expected = """Redeclared Parameter: bug"""
     assert(checkCkr(input,expected,498))
   }
-  test("Type Mismatch In Expression 191") {
+  test("Unreachable Function 191") {
     val input = """
     int sum(int a, int b) {
       int tong;
@@ -2262,19 +2267,62 @@ class CheckerSuite extends FunSuite with TestChecker {
       tong = a + b;
       return tong;
     }
-
-    float sub(float a, float b, float thisbug, float thisbug1) {
+    void test()
+    {
+      return;
+    }
+    float sub(float a, float b) {
       float hieu;
       float src;
       hieu = a - b;
       return hieu;
     }
 
-    int main() {
+    int test1(){
+      return 1;
+    }
+    int test2(){
+      return 1;
+    }
+    int test3(){
+      return 1;
+    }
+    int test4(){
+      return 1;
+    }
+
+    int test5(){
+      return 1;
+    }
+    int test6(){
+      return 1;
+    }
+
+    void main() {
+      int a, b;
+      if (a == b)
+      {
+        test1();
+      }
+      else
+        test2();
+      for(a = 1; a < 2; a=a+1)
+      {
+        test3();
+        for(a = 1; a < 2; a=a+1)
+          test4();
+      }
+      do
+      test5();
+      while(true);
+      do{
+        test6();
+      }
+      while(false);
       sum(5 + 1, 1 + 6);
       sub(5 * 1, 1 * 4);
     }"""
-    val expected = """Type Mismatch In Expression: CallExpr(Id("sub"),List(BinaryOp("*",IntLiteral(5),IntLiteral(1)),BinaryOp("*",IntLiteral(1),IntLiteral(4))))"""
+    val expected = """Unreachable Function: test"""
     assert(checkCkr(input,expected,499))
   }
   test("Unreachable Statement 192") {

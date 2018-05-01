@@ -1,33 +1,4 @@
 test
-run -draw ./src/test/scala/testcases/154.txt
-test
-compile
-test
-run -draw ./src/test/scala/testcases/159.txt
-run -lex ./src/test/scala/testcases/159.txt
-run -draw ./src/test/scala/testcases/159.txt
-run -lex ./src/test/scala/testcases/159.txt
-test
-run -draw ./src/test/scala/testcases/159.txt
-test
-run -draw ./src/test/scala/testcases/159.txt
-test
-run -draw ./src/test/scala/testcases/159.txt
-test
-compile
-test
-compile
-test
-run -lex ./src/test/scala/testcases/50.txt
-run -lex ./src/test/scala/testcases/52.txt
-compile
-test
-compile
-test
-compile
-test
-compile
-test
 clean
 compile
 test
@@ -498,3 +469,32 @@ run -draw ./src/test/scala/testcases/487.txt
 test
 quit()
 exit
+test
+compile
+clean
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+clean
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test

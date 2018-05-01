@@ -1,4 +1,11 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/minhtribk12/Google_Drive/Study/Master/Principles of Programming Languages/Assignment/source/initial/src/main/mc/utils/AST.scala:133:62: value \ is not a member of String[0m
-[0m[[0m[31merror[0m] [0m[0m        override def toString = "StringLiteral(\" + value + "\")"[0m
-[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/minhtribk12/Google_Drive/Study/Master/Principles of Programming Languages/Assignment/source/initial/src/main/mc/checker/StaticCheck.scala:170:27: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[?][0m
+[0m[[0m[31merror[0m] [0m[0m				val funcall = ifexp(4):::funcallif:::funcallelse.asInstanceOf[List[Decl]][0m
+[0m[[0m[31merror[0m] [0m[0m				                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/minhtribk12/Google_Drive/Study/Master/Principles of Programming Languages/Assignment/source/initial/src/main/mc/checker/StaticCheck.scala:188:29: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[?][0m
+[0m[[0m[31merror[0m] [0m[0m				val funcallif = ifexp(4):::checkReturnif.asInstanceOf[List[Any]](4).asInstanceOf[List[Decl]][0m
+[0m[[0m[31merror[0m] [0m[0m				                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

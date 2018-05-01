@@ -4,8 +4,12 @@
       result = a * b;
       return result;
     }
+    void test()
+    {
+      return;
+    }
 
-    int main() {
+    void main() {
       int abc;
-      abc = tich(5.5, "a");
+      abc = tich(2, 2);
     }
