@@ -1,1 +1,1 @@
-Type Mismatch In Expression: CallExpr(Id("test"),List(IntLiteral(3),FloatLiteral(12.6f),IntLiteral(7)))
+Undeclared Function: sub

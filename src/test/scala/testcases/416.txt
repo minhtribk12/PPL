@@ -1,7 +1,10 @@
 
-        void main(){
-          int a;
-          if (2 + 3)
-            a = 4;
-        }
-      
+    int test(){
+      int a;
+      a = 10;
+      return a;
+    }
+    int test2(){
+      int c;
+      c = test();
+    }

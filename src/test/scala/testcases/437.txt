@@ -1,6 +1,10 @@
 
-        int main(){
-          int a;
-          a = 2;
-        }
-      
+    // Testcase 1 - Short testcase: Continue not in loop
+    void main() {
+      int i;
+      int j;	
+      i = 10;	
+      for (j = 0; j < i; j = j + 1) {}
+      continue; // Continue not in loop
+      return;
+    }

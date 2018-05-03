@@ -1,5 +1,1 @@
-
-        void main(int b, boolean isA){
-          float b;
-        }
-      
+Program(List(FuncDecl(Id("main"),List(),VoidType,Block(List(),List(CallExpr(Id("putIntLn"),List(FloatLiteral(1.2f))))))))

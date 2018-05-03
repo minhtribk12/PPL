@@ -1,168 +1,168 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="Tris-Air" name="AstSuite" tests="100" errors="0" failures="0" skipped="0" time="2.052">
+<testsuite hostname="Tris-MacBook-Air.local" name="AstSuite" tests="100" errors="0" failures="0" skipped="0" time="2.082">
                      <properties>
       <property name="jline.esc.timeout" value="0"/><property name="jna.platform.library.path" value="/usr/lib:/usr/lib"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/><property name="java.vm.version" value="25.144-b01"/><property name="user.country.format" value="VN"/><property name="gopherProxySet" value="false"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/Users/minhtribk12/Google_Drive/Study/Master/Principles of Programming Languages/Assignment/source/initial"/><property name="java.runtime.version" value="1.8.0_144-b01"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed"/><property name="os.arch" value="x86_64"/><property name="java.io.tmpdir" value="/var/folders/xr/wmhp92nx42ggf5zcb6ghvwsm0000gn/T/"/><property name="line.separator" value="
 "/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/var/folders/xr/wmhp92nx42ggf5zcb6ghvwsm0000gn/T/jna-1093830463/jna5288985762378649710.tmp"/><property name="java.library.path" value="/Users/minhtribk12/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.12.6"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="user.home" value="/Users/minhtribk12"/><property name="user.timezone" value="Asia/Ho_Chi_Minh"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/usr/local/Cellar/sbt/1.1.1/libexec/bin/sbt-launch.jar"/><property name="user.name" value="minhtribk12"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/usr/local/Cellar/sbt/1.1.1/libexec/bin/sbt-launch.jar"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_144"/><property name="java.ext.dirs" value="/Users/minhtribk12/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
     </properties>
-                     <testcase classname="AstSuite" name="a simple program 1" time="0.54">
+                     <testcase classname="AstSuite" name="a simple program 1" time="0.429">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="another simple program 2" time="0.007">
+                                               </testcase><testcase classname="AstSuite" name="another simple program 2" time="0.01">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="a simple program 3" time="0.03">
+                                               </testcase><testcase classname="AstSuite" name="a simple program 3" time="0.02">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test dangling if 4" time="0.039">
+                                               </testcase><testcase classname="AstSuite" name="test dangling if 4" time="0.073">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test funcdecl 5" time="0.006">
+                                               </testcase><testcase classname="AstSuite" name="test funcdecl 5" time="0.008">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test funcdecl 6" time="0.008">
+                                               </testcase><testcase classname="AstSuite" name="test funcdecl 6" time="0.015">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test funcdecl 7" time="0.036">
+                                               </testcase><testcase classname="AstSuite" name="test funcdecl 7" time="0.041">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test funcdecl 8" time="0.019">
+                                               </testcase><testcase classname="AstSuite" name="test funcdecl 8" time="0.014">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test funcdecl 9" time="0.019">
+                                               </testcase><testcase classname="AstSuite" name="test funcdecl 9" time="0.023">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test funcdecl 10" time="0.01">
+                                               </testcase><testcase classname="AstSuite" name="test funcdecl 10" time="0.013">
                                                  
                                                </testcase><testcase classname="AstSuite" name="test funcdecl 11" time="0.021">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test funcdecl 12" time="0.019">
+                                               </testcase><testcase classname="AstSuite" name="test funcdecl 12" time="0.026">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test funcdecl 13" time="0.038">
+                                               </testcase><testcase classname="AstSuite" name="test funcdecl 13" time="0.149">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test funcdecl 14" time="0.085">
+                                               </testcase><testcase classname="AstSuite" name="test funcdecl 14" time="0.044">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test Array element 15" time="0.023">
+                                               </testcase><testcase classname="AstSuite" name="test Array element 15" time="0.024">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test Array element 16" time="0.024">
+                                               </testcase><testcase classname="AstSuite" name="test Array element 16" time="0.02">
                                                  
                                                </testcase><testcase classname="AstSuite" name="test if statement 17" time="0.018">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test priority 18" time="0.124">
+                                               </testcase><testcase classname="AstSuite" name="test priority 18" time="0.011">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test funcall 19" time="0.019">
+                                               </testcase><testcase classname="AstSuite" name="test funcall 19" time="0.021">
                                                  
                                                </testcase><testcase classname="AstSuite" name="test complex program 20" time="0.03">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test funcdeclare 21" time="0.007">
+                                               </testcase><testcase classname="AstSuite" name="test funcdeclare 21" time="0.053">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test var declare 22" time="0.007">
+                                               </testcase><testcase classname="AstSuite" name="test var declare 22" time="0.006">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test funcdeclare 23" time="0.017">
+                                               </testcase><testcase classname="AstSuite" name="test funcdeclare 23" time="0.021">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test for statement 24" time="0.013">
+                                               </testcase><testcase classname="AstSuite" name="test for statement 24" time="0.014">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test for statement 25" time="0.008">
+                                               </testcase><testcase classname="AstSuite" name="test for statement 25" time="0.007">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test for statement 26" time="0.014">
+                                               </testcase><testcase classname="AstSuite" name="test for statement 26" time="0.015">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test for statement 27" time="0.018">
+                                               </testcase><testcase classname="AstSuite" name="test for statement 27" time="0.043">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test func + var declare 28" time="0.004">
+                                               </testcase><testcase classname="AstSuite" name="test func + var declare 28" time="0.007">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test func + var decalare 29" time="0.003">
+                                               </testcase><testcase classname="AstSuite" name="test func + var decalare 29" time="0.005">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test for 30" time="0.006">
+                                               </testcase><testcase classname="AstSuite" name="test for 30" time="0.01">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test boolean function 31" time="0.008">
+                                               </testcase><testcase classname="AstSuite" name="test boolean function 31" time="0.007">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test void function 32" time="0.005">
+                                               </testcase><testcase classname="AstSuite" name="test void function 32" time="0.007">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test void function 33" time="0.008">
+                                               </testcase><testcase classname="AstSuite" name="test void function 33" time="0.007">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test void function 34" time="0.01">
+                                               </testcase><testcase classname="AstSuite" name="test void function 34" time="0.011">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test do while 35" time="0.013">
+                                               </testcase><testcase classname="AstSuite" name="test do while 35" time="0.012">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test boolean function 36" time="0.006">
+                                               </testcase><testcase classname="AstSuite" name="test boolean function 36" time="0.007">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test literal 37" time="0.009">
+                                               </testcase><testcase classname="AstSuite" name="test literal 37" time="0.011">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test do while 38" time="0.012">
+                                               </testcase><testcase classname="AstSuite" name="test do while 38" time="0.011">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test multi decalare 39" time="0.002">
+                                               </testcase><testcase classname="AstSuite" name="test multi decalare 39" time="0.007">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test multi decalre 40" time="0.003">
+                                               </testcase><testcase classname="AstSuite" name="test multi decalre 40" time="0.004">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test multi decalare 41" time="0.006">
+                                               </testcase><testcase classname="AstSuite" name="test multi decalare 41" time="0.005">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test var decalre 42" time="0.003">
+                                               </testcase><testcase classname="AstSuite" name="test var decalre 42" time="0.006">
                                                  
                                                </testcase><testcase classname="AstSuite" name="test var declare 43" time="0.002">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test var declare 44" time="0.005">
+                                               </testcase><testcase classname="AstSuite" name="test var declare 44" time="0.002">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test var decalare 45" time="0.005">
+                                               </testcase><testcase classname="AstSuite" name="test var decalare 45" time="0.009">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test if statement 46" time="0.017">
+                                               </testcase><testcase classname="AstSuite" name="test if statement 46" time="0.01">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test do while 47" time="0.002">
+                                               </testcase><testcase classname="AstSuite" name="test do while 47" time="0.008">
                                                  
                                                </testcase><testcase classname="AstSuite" name="test for statement 48" time="0.009">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test break statemnet 49" time="0.003">
+                                               </testcase><testcase classname="AstSuite" name="test break statemnet 49" time="0.006">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test continue statement 50" time="0.003">
+                                               </testcase><testcase classname="AstSuite" name="test continue statement 50" time="0.005">
                                                  
                                                </testcase><testcase classname="AstSuite" name="test return 51" time="0.007">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test return statement 52" time="0.007">
+                                               </testcase><testcase classname="AstSuite" name="test return statement 52" time="0.005">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test return statement 53" time="0.008">
+                                               </testcase><testcase classname="AstSuite" name="test return statement 53" time="0.006">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test funcall 54" time="0.008">
+                                               </testcase><testcase classname="AstSuite" name="test funcall 54" time="0.007">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test funcall 55" time="0.008">
+                                               </testcase><testcase classname="AstSuite" name="test funcall 55" time="0.007">
                                                  
                                                </testcase><testcase classname="AstSuite" name="test block statement 56" time="0.009">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test block statement 57" time="0.008">
+                                               </testcase><testcase classname="AstSuite" name="test block statement 57" time="0.006">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test block statement 58" time="0.009">
+                                               </testcase><testcase classname="AstSuite" name="test block statement 58" time="0.006">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test block statement 59" time="0.008">
+                                               </testcase><testcase classname="AstSuite" name="test block statement 59" time="0.007">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test block statement 60" time="0.009">
+                                               </testcase><testcase classname="AstSuite" name="test block statement 60" time="0.01">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 61" time="0.01">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 61" time="0.011">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 62" time="0.014">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 62" time="0.011">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test Stringlit 63" time="0.007">
+                                               </testcase><testcase classname="AstSuite" name="test Stringlit 63" time="0.009">
                                                  
                                                </testcase><testcase classname="AstSuite" name="test Stringlit 64" time="0.007">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test Stringlit 65" time="0.007">
+                                               </testcase><testcase classname="AstSuite" name="test Stringlit 65" time="0.008">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test Stringlit 66" time="0.007">
+                                               </testcase><testcase classname="AstSuite" name="test Stringlit 66" time="0.013">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 67" time="0.014">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 67" time="0.023">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test priority 68" time="0.012">
+                                               </testcase><testcase classname="AstSuite" name="test priority 68" time="0.017">
                                                  
                                                </testcase><testcase classname="AstSuite" name="test associate 69" time="0.008">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex statement 70" time="0.038">
+                                               </testcase><testcase classname="AstSuite" name="test complex statement 70" time="0.058">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex statement 71" time="0.031">
+                                               </testcase><testcase classname="AstSuite" name="test complex statement 71" time="0.043">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 72" time="0.014">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 72" time="0.021">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 73" time="0.013">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 73" time="0.016">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 74" time="0.009">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 74" time="0.013">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 75" time="0.006">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 75" time="0.01">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 76" time="0.011">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 76" time="0.006">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 77" time="0.022">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 77" time="0.016">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 78" time="0.017">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 78" time="0.014">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 79" time="0.013">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 79" time="0.016">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 80" time="0.017">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 80" time="0.011">
                                                  
                                                </testcase><testcase classname="AstSuite" name="test for statement 81" time="0.009">
                                                  
@@ -170,39 +170,39 @@
                                                  
                                                </testcase><testcase classname="AstSuite" name="test for statement 83" time="0.021">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test for statement 84" time="0.024">
+                                               </testcase><testcase classname="AstSuite" name="test for statement 84" time="0.019">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test for statement 85" time="0.019">
+                                               </testcase><testcase classname="AstSuite" name="test for statement 85" time="0.029">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 86" time="0.01">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 86" time="0.011">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 87" time="0.012">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 87" time="0.015">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 88" time="0.072">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 88" time="0.049">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test if statement 89" time="0.021">
+                                               </testcase><testcase classname="AstSuite" name="test if statement 89" time="0.024">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 90" time="0.01">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 90" time="0.007">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test Stringlit 91" time="0.008">
+                                               </testcase><testcase classname="AstSuite" name="test Stringlit 91" time="0.007">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 92" time="0.012">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 92" time="0.01">
                                                  
                                                </testcase><testcase classname="AstSuite" name="test for statement 93" time="0.007">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test Stringlit 94" time="0.013">
+                                               </testcase><testcase classname="AstSuite" name="test Stringlit 94" time="0.012">
                                                  
                                                </testcase><testcase classname="AstSuite" name="test complex program 95" time="0.011">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 96" time="0.011">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 96" time="0.015">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 97" time="0.016">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 97" time="0.013">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 98" time="0.013">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 98" time="0.011">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 99" time="0.017">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 99" time="0.022">
                                                  
-                                               </testcase><testcase classname="AstSuite" name="test complex program 100" time="0.03">
+                                               </testcase><testcase classname="AstSuite" name="test complex program 100" time="0.037">
                                                  
                                                </testcase>
                      <system-out><![CDATA[]]></system-out>

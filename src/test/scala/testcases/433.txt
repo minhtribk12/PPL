@@ -1,12 +1,29 @@
 
-        void main(){
-          int a;
-          int b;
-          b = 0;
-          do
-            b = b + a;
-            return;
-            b = b + 2;
-          while (a < 100);
-        }
-      
+    int return10(){
+      int a;
+      a = 10;
+      return a;
+    }
+
+    int return100(){
+      int a;
+      a = return10()*return10();
+      return a;
+    }
+
+    int return1000(){
+      int a;
+      a = return10()*return100();
+      return 1.1;
+    }
+
+    void main(){
+      int a;
+      a = return1000();
+      if (a > 100) {
+        float b;
+        int b; //redeclared variable
+        a = a*return10();
+      }
+      return;
+    }

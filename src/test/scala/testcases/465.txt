@@ -1,12 +1,8 @@
 
-        void main(int a){
-         int i;
-         boolean found;
-         found = false;
-         for (i = 1; i < 1000; i = i + 1)
-             if ( i % a == 0){
-               found = true;
-               break;
-             }
-        }
-      
+    int a, b, c[5];
+    void main(){
+      float d;
+      int e;
+      f = 1;	// this is error
+      return;
+    }

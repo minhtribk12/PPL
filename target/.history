@@ -1,7 +1,4 @@
 test
-clean
-compile
-test
 run -draw ./src/test/scala/testcases/204.txt
 test
 run -draw ./src/test/scala/testcases/204.txt
@@ -498,3 +495,6 @@ test
 compile
 test
 compile
+test
+compile
+test

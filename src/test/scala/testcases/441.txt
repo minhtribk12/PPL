@@ -1,7 +1,31 @@
 
-      void callAnotherFunction(int a){}
-      void main(){
-        callAnotherFunction(12);
-        return;
-      }
+    // Testcase 5 - Long testcase: Continue not in loop
+    int a;
+    float b;
+    boolean c;
+    int arr_a[100];
+    float arr_b[80];
+    boolean arr_c[60];
+
+    void initIntArray(int size, int arr) {
+      int i;
       
+      i = 0;
+      do
+        arr = 0;
+        i = i + 1;
+        continue;
+      while (i >= size);
+      continue; // Continue not in loop
+      return;
+    }
+    void main() {
+      int intArr;
+      float floatArr[10];
+      
+      initIntArray(100, intArr);
+      for (a; a < 10; a = a + 1)
+        floatArr[a] = 0.0;	
+      c = false;
+      return;
+    }

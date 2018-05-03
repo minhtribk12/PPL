@@ -1,1 +1,1 @@
-Continue Not In Loop
+Type Mismatch In Statement: If(BinaryOp("=",Id("a"),IntLiteral(0)),BinaryOp("=",Id("a"),BinaryOp("+",Id("a"),IntLiteral(1))),None)

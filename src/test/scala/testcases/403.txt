@@ -1,5 +1,1 @@
-
-        void main(){}
-        void test(int a){}
-        void test(float a, string b, boolean c, int n[]){}
-      
+void main () {putIntLn();}

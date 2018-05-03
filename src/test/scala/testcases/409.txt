@@ -1,1 +1,1 @@
-void main () {putIntLn();}
+int a; void main (int b, int c) {return a;} void abc () {}

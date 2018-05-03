@@ -1,8 +1,9 @@
 
-        float a;
-        int getNumber(){return 1;}
-        void main(){
-          float b;
-          b = -(a % 12 - getNumber());
-        }
-      
+    int x;
+    void main (){
+      int i;
+      for (i = true; i < 5; i = i+1){
+        x = x + 1;
+      }	
+      return ;
+    }

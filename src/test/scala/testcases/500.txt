@@ -1,7 +1,8 @@
 
     int compare(int a, int b){
       int result;
-      if (a < b) result = a;
+      boolean c, d;
+      if (c = d) result = a;
       else result = b;
       return result;
     }

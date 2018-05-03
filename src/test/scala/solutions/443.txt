@@ -1,1 +1,1 @@
-Unreachable Statement: BinaryOp("=",Id("a"),IntLiteral(5))
+Undeclared Identifier: lc_bool

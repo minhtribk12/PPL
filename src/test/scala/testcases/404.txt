@@ -1,6 +1,1 @@
-
-        void main(int b){
-          int a;
-          boolean a;
-        }
-      
+Program(List(FuncDecl(Id("main"),List(),VoidType,Block(List(),List(CallExpr(Id("putIntLn"),List()))))))

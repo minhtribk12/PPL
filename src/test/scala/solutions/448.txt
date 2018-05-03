@@ -1,1 +1,1 @@
-Type Mismatch In Expression: BinaryOp("=",Id("a"),CallExpr(Id("execute"),List(IntLiteral(4))))
+Redeclared Variable: a

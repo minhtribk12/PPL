@@ -1,1 +1,1 @@
-Redeclared Variable: a
+Type Mismatch In Expression: CallExpr(Id("putIntLn"),List())

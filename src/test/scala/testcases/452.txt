@@ -1,12 +1,9 @@
 
-        int a;
-
-        int[] getArray(){
-          int a[5];
-          return a;
-        }
-        void main(){
-          int a[5];
-          a[0] = getArray()[2];
-        }
-      
+    void main (){
+      int a;
+      if (a = 1)
+        return 1;
+      else
+        return 0;
+      return;
+    }

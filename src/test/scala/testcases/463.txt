@@ -1,15 +1,11 @@
 
-        int test(boolean b, int numbers[], float a){
-          if (a < 100)
-            if (b)
-              return numbers[0];
-            else
-              return numbers[1];
-          return 0;
-         }
-         void main(){
-          int a;
-          int b[5];
-          a = test(true, b, 5.0);
-         }
-      
+    void main() {
+      int a;
+      float check;
+
+        if (check) 
+          a = 1;
+        else 
+          a = 2;
+    }
+    

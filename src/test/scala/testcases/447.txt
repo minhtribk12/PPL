@@ -1,11 +1,7 @@
 
-        
-        int[] execute(int a){
-          int b[4];
-          return b;
-        }
-        void main(){
-          int a[4];
-          a = execute(4);
-        }
-      
+    int foo(int a, int a){
+      return 1;
+    }
+    void main(){
+      return;
+    }

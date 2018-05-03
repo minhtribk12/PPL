@@ -1,6 +1,1 @@
-
-        void main(){
-          int a;
-          a = "Khoa";
-        }
-      
+int a; int a; void main () {} void abc () {}

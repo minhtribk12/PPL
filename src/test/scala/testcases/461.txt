@@ -1,15 +1,23 @@
 
-        int n;
-        int sum;
-        int i;
-        void main(){
-          n = 10;
-          sum = 0;
-          i = 1;
-          do{
-              sum = sum + i;
-              i = i + 1;
-          } while (i <= n);
-          return;
+    int abs;
+
+    int Abs(int input) {
+        if (input < 0) input = input * 1;
+        return input;
+    }
+
+    void main() {
+        int abs;
+        abs = 0;
+        if (abs == 0) {
+            int abs;
+            boolean a;
+            abs = Abs(abs);
         }
-      
+        if (abs != 0) {
+            int abs;
+            boolean abs;
+            abs = Abs(abs);
+        }    
+        return;
+    }

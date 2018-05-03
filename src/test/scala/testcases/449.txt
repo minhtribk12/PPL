@@ -1,7 +1,12 @@
 
-        int a;
-        void a(){}
-        void main(){
-          a();
-        }
-      
+    int foo(int a){
+      {
+      int a;
+      }
+      return 1;
+    }
+    void main(){
+      int b;
+      int b;
+      return;
+    }

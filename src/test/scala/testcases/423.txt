@@ -1,12 +1,8 @@
 
-        void main(){
-          int a;
-          int b;
-          b = 0;
-          do{
-            b = b + a;
-            a = a + 1;
-            if (a == 50) break;
-          } while (a < 100);
-        }
-      
+    int a;
+    float b[4];
+
+    void main() {
+      foo(); 
+    }
+    

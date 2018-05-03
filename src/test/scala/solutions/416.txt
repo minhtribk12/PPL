@@ -1,1 +1,1 @@
-Type Mismatch In Statement: If(BinaryOp("+",IntLiteral(2),IntLiteral(3)),BinaryOp("=",Id("a"),IntLiteral(4)),None)
+Function Not Return: test2

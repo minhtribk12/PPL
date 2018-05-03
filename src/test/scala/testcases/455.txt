@@ -1,8 +1,19 @@
 
-        int a;
-        int getNumber(){return 5;}
-        void main(){
-          boolean b;
-          a = 12 + 6 * 5 / getNumber();
-        }
-      
+    int a;
+    int b;
+    void main (){
+      int max;
+      int count;
+      int i;
+      max = 5;
+      for (i = 0; i < 10 ; i = i + 1){
+        if (i < max) count= count +1;
+        else count = count;
+      }
+      return;
+    }
+    int this_is_so_wrong (){
+      a = 0;
+      b = a +10;	
+      return false;
+    }

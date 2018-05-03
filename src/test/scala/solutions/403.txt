@@ -1,1 +1,1 @@
-Redeclared Function: test
+Type Mismatch In Expression: CallExpr(Id("putIntLn"),List())

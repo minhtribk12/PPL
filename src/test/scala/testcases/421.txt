@@ -1,12 +1,24 @@
 
-        void main(){
-          int a;
-          int b;
-          b = 0;
-          do{
-            b = b + a;
-            a = a + 1;
-          } while (a < 100);
-          break;
-        }
-      
+    boolean isOpposite(int para_x, int para_y){
+      if(para_x*para_x == para_y*para_y)
+        return true;
+      else
+        return false;
+    }
+
+    boolean isAnotherOpposite(int para_x, int para_y){
+      if(para_x*para_x == para_y*para_y)
+        return 1;	// wrong here
+      else
+        return false;
+    }
+
+    void main(){
+      int local_x, local_y;
+      local_x = 13;
+      local_y = -13;
+      if(isOpposite(local_x, local_y))
+        isAnotherOpposite(local_y, local_x);
+      return;
+    }
+    
