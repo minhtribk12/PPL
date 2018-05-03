@@ -25,7 +25,7 @@
       return hieu;
     }
 
-    int main() {
+    void main() {
       boolean arrb[10];
       sum(5 + 1, 1 + 6, 2 + 4);
       sub(5 * 1, 1 * 4, 1 * 1);

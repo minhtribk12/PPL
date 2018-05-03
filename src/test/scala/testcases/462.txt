@@ -1,21 +1,21 @@
 
-    int out;
-
-    int main() {
-        int in;
-        {
-        float in;
-        {
-          boolean in;
-          int out[3];
+        void main() {
+          boolean isPrime;
+          int j, count, desiredCount, num;
+          isPrime = false;
+          j = 0;
+          do{
+            if (j != 1 && num % j == 0) {
+                isPrime = false;
+                break;
+            } else {
+                j = j + 1;
+            }
+          }while (j < num / 2);
+          if (isPrime) {
+              if (count < desiredCount - 1)
+                 count = count + 1;
+          }
+          num = num + 1;
         }
-        }
-        {
-        float in;
-        {
-          boolean out;
-          int out[3];
-        }
-        }    
-        return 0;
-    }
+      

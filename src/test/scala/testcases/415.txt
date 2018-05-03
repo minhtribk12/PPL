@@ -1,8 +1,6 @@
 
-    int main(){ 
-      int a, b, c;
-      a = 4;
-      b = 5;
-      c = a + b;
-    }
-    
+        void main(){
+          boolean a;
+          a = !(5 == 6);
+        }
+      

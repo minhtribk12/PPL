@@ -23,8 +23,6 @@ trait Utils {
     	case List() => None
     	case head::tail => if (name == func(head)) Some(head) else lookup(name,tail,func)
   	}
-	
-	
 }
 
 class StaticChecker(ast:AST) extends BaseVisitor with Utils {
@@ -78,19 +76,20 @@ class StaticChecker(ast:AST) extends BaseVisitor with Utils {
 
     override def visitProgram(ast: Program, c: Any): Any = {
         val declList = ast.decl.asInstanceOf[List[Decl]]
-        val checkList = declList.foldLeft(List(List[Decl]()))((a,b) => b.accept(this, List(a, 0)).asInstanceOf[List[List[Decl]]])
+		val allfunc = ast.decl.filter(_.isInstanceOf[FuncDecl]).asInstanceOf[List[FuncDecl]]:::builtInFunc
+        val checkList = declList.foldLeft(List(List[Decl]()))((a,b) => b.accept(this, List(a, 0, allfunc)).asInstanceOf[List[List[Decl]]])
 		val funcList = checkList.asInstanceOf[List[List[Decl]]].flatten.filter(_.isInstanceOf[FuncDecl]).asInstanceOf[List[FuncDecl]]
 		val listFuncall = VarDecl(Id("main"), IntType) :: checkList.asInstanceOf[List[List[Decl]]].flatten.filter(_.isInstanceOf[VarDecl]).asInstanceOf[List[VarDecl]]
+		lookup("main",funcList, tostring) match {
+			case Some(x) => if(x.returnType != VoidType) throw NoEntryPoint
+			case None => throw NoEntryPoint
+		}
 		funcList.map(x => {
 			lookup(x.name.name,listFuncall, tostring) match {
 				case Some(f) => {}
 				case None => throw UnreachableFunction(x.name.name)
 			}
 		})
-		lookup("main",funcList, tostring) match {
-			case Some(x) => if(x.returnType != VoidType) throw NoEntryPoint
-			case None => throw NoEntryPoint
-		}
 		null
     }
 
@@ -105,8 +104,9 @@ class StaticChecker(ast:AST) extends BaseVisitor with Utils {
     }
 
     override def visitFuncDecl(ast: FuncDecl, c: Any): Any = {
-        val idlist = c.asInstanceOf[List[Any]](0).asInstanceOf[List[List[Decl]]]
-		val level = c.asInstanceOf[List[Any]](1).asInstanceOf[Int]
+		val env = c.asInstanceOf[List[Any]]
+        val idlist = env(0).asInstanceOf[List[List[Decl]]]
+		val level = env(1).asInstanceOf[Int]
 		var currentlist = idlist.asInstanceOf[List[List[Decl]]](0).asInstanceOf[List[Decl]]
 		checkID(ast, currentlist, level)
 		val newList = ast.asInstanceOf[Decl] :: currentlist
@@ -271,10 +271,15 @@ class StaticChecker(ast:AST) extends BaseVisitor with Utils {
 		else if (funcType == FloatType) {
 			if (returnType != IntType && returnType != FloatType) throw TypeMismatchInStatement(ast)
 		}
-		else {	//(funcType == BoolType)
+		else if (funcType == BoolType) {	
 			if (returnType != BoolType) throw TypeMismatchInStatement(ast)
 		}
-		return List(env(0), env(1), List(true, funcType) :: env(2).asInstanceOf[List[Any]], env(3), env(4))
+		else if (funcType.isInstanceOf[ArrayPointerType]) {
+			val returntype = if(returnType.isInstanceOf[ArrayType]) returnType.asInstanceOf[ArrayType].eleType else returnType.asInstanceOf[ArrayPointerType].eleType
+			if (funcType.asInstanceOf[ArrayPointerType].eleType != returntype) throw TypeMismatchInStatement(ast)
+		}
+		else throw TypeMismatchInStatement(ast)
+		return List(env(0), env(1), List(true, returnType) :: env(2).asInstanceOf[List[Any]], env(3), env(4))
 	}
 
 	override def visitCallExpr(ast: CallExpr, c: Any): Any = {
@@ -304,13 +309,15 @@ class StaticChecker(ast:AST) extends BaseVisitor with Utils {
 				else if (lt == StringType) {
 					if (rt != StringType) throw TypeMismatchInExpression(ast)
 				}
-				else {	//(lt.isInstanceOf[ArrayPointerType])
-					if (rt.isInstanceOf[ArrayPointerType]) {
-							if (lt.asInstanceOf[ArrayPointerType].eleType != rt.asInstanceOf[ArrayPointerType].eleType)
-								throw TypeMismatchInExpression(ast)
+				else if (lt.isInstanceOf[ArrayPointerType] || lt.isInstanceOf[ArrayType]){	
+					val leftexptype = if(lt.isInstanceOf[ArrayPointerType]) lt.asInstanceOf[ArrayPointerType].eleType else lt.asInstanceOf[ArrayType].eleType
+					if (rt.isInstanceOf[ArrayPointerType] || rt.isInstanceOf[ArrayType]) {
+						val rightexptype = if(rt.isInstanceOf[ArrayPointerType]) rt.asInstanceOf[ArrayPointerType].eleType else rt.asInstanceOf[ArrayType].eleType
+						if (leftexptype != rightexptype) throw TypeMismatchInExpression(ast)
 					}
 					else throw TypeMismatchInExpression(ast)
 				}
+				else throw TypeMismatchInExpression(ast)
 			}}
 		}
 		val newfunclist = VarDecl(Id(func.asInstanceOf[FuncDecl].name.name), IntType) :: env(4).asInstanceOf[List[Decl]]
@@ -375,14 +382,6 @@ class StaticChecker(ast:AST) extends BaseVisitor with Utils {
 				if (rt == StringType) List(env(0), env(1), env(2), env(3), funclist, StringType)
 				else throw TypeMismatchInExpression(ast)
 			}
-			else if (lt.isInstanceOf[ArrayPointerType]) {
-				if (rt.isInstanceOf[ArrayPointerType]) {
-					if (lt.asInstanceOf[ArrayPointerType].eleType == rt.asInstanceOf[ArrayPointerType].eleType)
-						List(env(0), env(1), env(2), env(3), funclist, lt.asInstanceOf[ArrayPointerType])
-					else throw TypeMismatchInExpression(ast)
-				}
-				else throw TypeMismatchInExpression(ast)
-			}
 			else throw TypeMismatchInExpression(ast)
 		}
 	}
@@ -423,11 +422,12 @@ class StaticChecker(ast:AST) extends BaseVisitor with Utils {
 		val funclist = idxexp(4).asInstanceOf[List[Decl]]:::arrexp(4).asInstanceOf[List[Decl]]
 		val e1 = arrexp(5).asInstanceOf[Type]
 		val e2 = idxexp(5).asInstanceOf[Type]
-		if (e1.isInstanceOf[ArrayType] == false)
-			throw TypeMismatchInExpression(ast.asInstanceOf[Expr])
+		if (!e1.isInstanceOf[ArrayType] && !e1.isInstanceOf[ArrayPointerType])
+			throw TypeMismatchInExpression(ast)
 		if (e2 != IntType)
-			throw TypeMismatchInExpression(ast.asInstanceOf[Expr])
-		return return List(env(0), env(1), env(2), env(3), funclist, e1.asInstanceOf[ArrayType].eleType)
+			throw TypeMismatchInExpression(ast)
+		val returntype = if(e1.isInstanceOf[ArrayType]) e1.asInstanceOf[ArrayType].eleType else e1.asInstanceOf[ArrayPointerType].eleType
+		return return List(env(0), env(1), env(2), env(3), funclist, returntype)
 	}
 
 	override def visitIntType(ast: IntType.type, c: Any): Any = {

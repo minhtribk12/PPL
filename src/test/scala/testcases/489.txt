@@ -1,5 +1,5 @@
 
-    int main()
+    void main()
     {
         int a, b, c, determinant, root1,root2, realPart, imaginaryPart;
 
@@ -34,5 +34,5 @@
             putStringLn("root1 = %.2lf+%.2lfi and root2 = %.2f-%.2fi");
         }
 
-        return 0;
+        return ;
     }  

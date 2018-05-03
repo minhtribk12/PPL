@@ -13,7 +13,7 @@
       return hieu;
     }
 
-    int main() {
+    void main() {
       sum(5 + 1, 1 + 6);
       sub(5 * 1, 1 * 4);
     }

@@ -1,1 +1,1 @@
-Undeclared Identifier: d
+Type Mismatch In Expression: BinaryOp("=",Id("b"),ArrayCell(CallExpr(Id("test1"),List(Id("a"),Id("b"),Id("c"))),IntLiteral(4)))

@@ -1,1 +1,1 @@
-Unreachable Function: doSomething
+Unreachable Statement: BinaryOp("=",Id("b"),BinaryOp("+",Id("b"),IntLiteral(2)))

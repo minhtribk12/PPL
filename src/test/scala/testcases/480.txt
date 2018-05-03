@@ -2,7 +2,7 @@
     int i;
     float i;
 
-    int main() 
+    void main() 
     {
         f();
         return 1;

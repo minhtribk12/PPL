@@ -1,1 +1,1 @@
-Type Mismatch In Expression: BinaryOp("=",Id("a"),CallExpr(Id("hehe"),List()))
+Unreachable Statement: BinaryOp("=",Id("b"),BinaryOp("+",Id("b"),IntLiteral(2)))

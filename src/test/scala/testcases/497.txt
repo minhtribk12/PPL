@@ -1,8 +1,12 @@
 
-        int main() {
-        int a;
-        int b;
-        int c;
-        d = c;
-        return 0; 
+    int[] test1(float a, int b[], int c){ 
+      return b;
+      }
+    void main() {
+      int main;
+      int a;
+      int b[4];
+      int c;
+      b = test1(a, b, c)[4];
+      return; 
     }

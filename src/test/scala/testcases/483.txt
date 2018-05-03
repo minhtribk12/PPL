@@ -1,7 +1,7 @@
 
     int out;
 
-    int main() {
+    void main() {
         int in;
         {
         float in;
@@ -17,5 +17,5 @@
           int out[3];
         }
         }    
-        return 0;
+        return;
     }

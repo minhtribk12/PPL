@@ -1,8 +1,11 @@
 
-    int foo(int a, int b){
-      int a;
-      return 1;
-    }
-    int main(){
-      return 0;
-    }
+        
+        string[] execute(int a){
+          string b[4];
+          return b;
+        }
+        void main(){
+          int a[4];
+          a = execute(4);
+        }
+      

@@ -1,11 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/minhtribk12/Google_Drive/Study/Master/Principles of Programming Languages/Assignment/source/initial/src/main/mc/checker/StaticCheck.scala:170:27: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
-[0m[[0m[31merror[0m] [0m[0m required: List[?][0m
-[0m[[0m[31merror[0m] [0m[0m				val funcall = ifexp(4):::funcallif:::funcallelse.asInstanceOf[List[Decl]][0m
-[0m[[0m[31merror[0m] [0m[0m				                      ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/minhtribk12/Google_Drive/Study/Master/Principles of Programming Languages/Assignment/source/initial/src/main/mc/checker/StaticCheck.scala:188:29: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
-[0m[[0m[31merror[0m] [0m[0m required: List[?][0m
-[0m[[0m[31merror[0m] [0m[0m				val funcallif = ifexp(4):::checkReturnif.asInstanceOf[List[Any]](4).asInstanceOf[List[Decl]][0m
-[0m[[0m[31merror[0m] [0m[0m				                        ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/minhtribk12/Google_Drive/Study/Master/Principles of Programming Languages/Assignment/source/initial/src/main/mc/checker/StaticCheck.scala:436:67: value eleType is not a member of mc.utils.Type[0m
+[0m[[0m[31merror[0m] [0m[0m		return return List(env(0), env(1), env(2), env(3), funclist, e1.eleType)[0m
+[0m[[0m[31merror[0m] [0m[0m		                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

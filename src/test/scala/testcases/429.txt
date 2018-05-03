@@ -1,15 +1,9 @@
 
-    int foo(boolean b, boolean h){
-      int f;
-      f=5;
-      if(f>5){
-      int g;
-      g=5;
-      g = g+6;
-      }
-      return 0;
-    }
-    int main ( boolean hg,boolean hg,boolean hd){
-      int wrong;
-      return 0;
-    }
+        void main(){
+          int a;
+          if (true)
+            a = 3;
+          else
+            a = 5;
+        }
+      

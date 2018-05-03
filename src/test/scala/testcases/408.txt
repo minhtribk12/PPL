@@ -1,1 +1,1 @@
-int a; void main (int b, int c) {} void abc () {} int a;
+void main () {getInt(3);}

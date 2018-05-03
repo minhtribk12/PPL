@@ -2,15 +2,6 @@ test
 clean
 compile
 test
-run -lex ./src/test/scala/testcases/201.txt
-run -draw ./src/test/scala/testcases/201.txt
-test
-run -draw ./src/test/scala/testcases/201.txt
-run -draw ./src/test/scala/testcases/203.txt
-test
-clean
-compile
-test
 run -draw ./src/test/scala/testcases/204.txt
 test
 run -draw ./src/test/scala/testcases/204.txt
@@ -498,3 +489,12 @@ compile
 test
 compile
 test
+compile
+test
+run -draw ./src/test/scala/testcases/498.txt
+test
+compile
+test
+compile
+test
+compile

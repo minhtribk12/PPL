@@ -1,8 +1,8 @@
 
-    int main()
+    void main()
     {
         int e,c,f;
         boolean c;
         c = e;
-        return 0;
+        return;
     }

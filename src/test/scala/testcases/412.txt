@@ -1,11 +1,6 @@
 
-    float divide(float n){
-      n = n/2;
-      return n;
-    }
-    int main(){
-      int x;
-      x = divide(5.2); //error here
-      return 1;
-    }
-  
+        void main(){
+          string a;
+          a = 2.5;
+        }
+      

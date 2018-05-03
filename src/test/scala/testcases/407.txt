@@ -1,1 +1,6 @@
-int a; void main (int b, int b) {} void abc () {}
+
+        void main(){
+          int a;
+          a = 2.3;
+        }
+      

@@ -1,19 +1,13 @@
 
-    int i;
-    int Inc(int input) {
-      return input + 1;
-    }
-    int main() {
-        int main;
-        main = Inc(i);
-        putIntLn(i);
-        {
-        int i,foo;
-        int main;
-        int foo;
-        main = foo = i = 100;
-        putIntLn(i);		 
-        putIntLn(Inc(main));
+        void main() {
+          boolean a;
+          int b;
+          b = 0;
+          do
+            b = b + 1;
+            if (a)
+              if (b % 2 == 0)
+                b = b * 2;
+          while (b < 100);
         }
-        putIntLn(main);
-    }
+      

@@ -1,1 +1,1 @@
-Redeclared Variable: sum
+Unreachable Statement: BinaryOp("=",Id("a"),IntLiteral(5))

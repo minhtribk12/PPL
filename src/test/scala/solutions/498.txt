@@ -1,1 +1,1 @@
-Redeclared Parameter: bug
+Unreachable Function: test3

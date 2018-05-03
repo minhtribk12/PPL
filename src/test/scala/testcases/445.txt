@@ -1,82 +1,9 @@
 
-    int gb_int;
-    float gb_float;
-    boolean gb_bool;
-
-    boolean init() {
-      gb_int = 42;
-      gb_float = 42.0;
-      gb_bool = true;
-
-      return true;
-    }
-
-    int func_int(int param_int, float param_float, boolean param_bool) {
-      int lc_int;
-      float lc_float;
-      boolean lc_bool;
-
-      lc_int = 1;
-      lc_float = 1.0;
-      lc_bool = true;
+        int callAnotherFunction(int a){
+          if (a == 0)
+            return 1;
+        }
+        void main(){
+          callAnotherFunction(0);
+        }
       
-      if (gb_bool && lc_bool) {
-        lc_int = gb_int;
-        lc_float = gb_float;
-      }
-      else {
-        lc_int = param_int;
-        lc_float = param_float;
-      }
-
-      return lc_int;
-    }
-
-    float func_float(int param_int, float param_float, boolean param_bool) {
-      int lc_int;
-      float lc_float;
-      boolean lc_bool;
-
-      lc_int = 1;
-      lc_float = 1.0;
-      lc_bool = true;
-
-      if (gb_bool && lc_bool) {
-        lc_int = gb_int;
-        lc_float = gb_float;
-      }
-      else {
-        lc_int = param_int;
-        lc_float = param_float;
-      }
-
-      return lc_float;
-    }
-
-    int main() {
-      int main_int;
-      float main_float;
-      boolean main_bool;
-
-      if(!init()) return 1;
-
-      main_int = 0;
-      main_float = 0.0;
-      main_bool = false;
-
-      if (gb_bool && main_bool) {
-        main_int = gb_int;
-        main_float = gb_float;
-      }
-      else {
-        int arg_int;
-        float arg_float;
-        // boolean arg_bool; // Undeclared argument
-
-        main_int = func_int(arg_int, arg_float, main_bool);
-        main_float = func_float(arg_int, arg_float, /*Undeclared argument*/ arg_bool);
-      }
-
-      return 0;
-    }
-    

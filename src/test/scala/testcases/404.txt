@@ -1,1 +1,6 @@
-Program(List(FuncDecl(Id("main"),List(),VoidType,Block(List(),List(CallExpr(Id("putIntLn"),List()))))))
+
+        void main(int b){
+          int a;
+          boolean a;
+        }
+      

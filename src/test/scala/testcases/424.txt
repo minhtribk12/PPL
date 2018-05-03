@@ -1,12 +1,12 @@
 
-    int foo(){
-	    int a, b;
-      a= b= 4;	
-      return b* 4+ a;	
-    }
-    int main(){
-      int c;
-      c= foo();
-      return foo1();
-    }
-    
+        void main(){
+          int a;
+          int b;
+          b = 0;
+          do{
+            b = b + a;
+            a = a + 1;
+            if (a == 50) continue;
+          } while (a < 100);
+        }
+      

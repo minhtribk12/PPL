@@ -1,8 +1,9 @@
 
-    int main()
-    {
-        int e,c,f;
-        boolean c;
-        c = e;
-        return 0;
-    }
+        void main() {
+          boolean a;
+          int b;
+          if (b < 100)
+            if (a)
+              b = b + 100;
+        }
+      

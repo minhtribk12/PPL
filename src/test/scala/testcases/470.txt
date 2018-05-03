@@ -1,8 +1,8 @@
 
-    int main()
+    void main()
     {
       int a, b, c;
       c = tong(a, b);
-      return 0;
+      return;
     }
     

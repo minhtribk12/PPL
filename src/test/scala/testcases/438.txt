@@ -1,11 +1,9 @@
 
-    // Testcase 2 - Short testcase: Continue not in loop
-    void doNothing() {
-      int i;
-      for (i = 0; i == 5; i = 5) { return; }	
-    }
-    int main() {
-      doNothing();
-      continue; // Continue not in loop
-      return 1;
-    }
+        void main(){
+          int a;
+          a = 2;
+          do
+            return;
+          while (a > 1);
+        }
+      

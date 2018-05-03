@@ -1,20 +1,6 @@
 
-    int add(int a, int b){
-      return a+ b;
-    }
-
-    int minus(int a, int b){
-      return a- b;
-    }
-
-    int main(){
-      int i, a, b[10];
-      a= 10 - 1;
-      i= 0;
-      for(i; i < a; i= i+ 1){
-        b[1]= add(a, b[10]);
-        b[1]= sub(a+ 1, b[9]);
-      }
-      return 0;
-    }
-    
+        void test(int a, float b, string c){}
+        void main(){
+          test(3, 12.6, 7);
+        }
+      

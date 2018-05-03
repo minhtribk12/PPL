@@ -3,7 +3,7 @@
     int Inc(int input) {
       return input + 1;
     }
-    int main() {
+    void main() {
         int main;
         main = Inc(i);
         putIntLn(i);

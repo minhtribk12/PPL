@@ -1,7 +1,7 @@
 
-    boolean getBool(){
-      return true;
-    }
-    void main(){
-      return ;
-    }
+        int a;
+        void main(){
+          int a[5];
+          a[0] = 1;
+        }
+      

@@ -2,11 +2,11 @@
     float tong(float a, float b){
       return a+b;
     }
-    int main()
+    void main()
     {
       float a, b;
       int c;
       c = tong(a, b);
-      return 0;
+      return;
     }
     

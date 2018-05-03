@@ -1,20 +1,21 @@
 
-    int main() {
-    int a;
-    int b;
-    int c;
-    int d;
-
-        if (a>2.1)
-            if (b<-1)
-                if (c == 2)
-                    d = 4;
-    return 0;
+    int[] test(int k[]) {
+      int a[4];
+    return a;
     }
 
-    int test(int a, int b, int c, int d, int bug, int f, int bug){
-      if (a>2.1)
-            if (b<-1)
-                if (c == 2)
-                    d = 4;
+    int[] test2() {
+      int a[4];
+    return test(a);
     }
+
+    int[] test3() {
+      int a[4];
+    return a;
+    }
+
+    void main(){
+      int a[4];
+      a[3] = test2()[3];
+    }
+    

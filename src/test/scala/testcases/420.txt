@@ -1,28 +1,11 @@
 
-    //Long, Type Mismatch 
-
-    int global_x, global_y;
-    boolean global_z;
-
-    void foo(int para_x){
-      do
-      {
-        int local_x;
-        local_x = global_y;
-        global_z = true;
-      }
-      while (true);
-      return;
-    }
-
-    void wrongFoo(int para_x){
-      do
-      {
-        int local_x;
-        local_x = global_y;
-        global_z = true;
-      }
-      while(global_x - para_x = 0);
-      return;
-    }
-    
+        void main(){
+          int a;
+          int b;
+          b = 0;
+          for (a = 0; a < 100; a = a + 1){
+            b = b + a;
+            break;
+          }
+        }
+      

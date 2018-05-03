@@ -3,7 +3,7 @@
     boolean b;
     int c[5];
 
-    int main(){
+    void main(){
       /* declaration */
       float d;
 
@@ -15,5 +15,5 @@
         d = a;
         f = f + 2;	// this is error
       }
-      return 0;
+      return;
     }

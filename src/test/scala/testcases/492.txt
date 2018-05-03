@@ -1,7 +1,14 @@
 
-    int tich(float a, float b) {
-      int result;
-      result = a * b;
-      return result;
+    int[] test1(float a, int b[], int c){ 
+      return b;
+      }
+    void main() {
+      int main;
+      int a;
+      int b[4];
+      int c;
+      b[3] = test1(a, b, c)[4];
+      c = b; 
+      return; 
     }
     

@@ -1,4 +1,1 @@
-
-    int a; 
-    void main (int b, int c) {} 
-    int abc () {}
+Program(List(FuncDecl(Id("main"),List(),VoidType,Block(List(),List(CallExpr(Id("putIntLn"),List()))))))

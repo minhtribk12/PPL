@@ -1,14 +1,8 @@
 
-    int foo(int a, int b, boolean c, float d){
-      return 1;
-    }
-
-    int main(){
-      int x;
-      int a;
-      int b;
-      int c;
-      float d;
-      x = foo(a, b, c, d);
-      return 1;
-    }
+        int a;
+        void main(){
+          string a[5];
+          a[0] = "khoa";
+          a[1] = 3;
+        }
+      

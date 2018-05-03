@@ -1,9 +1,10 @@
 
-    int i;
-    float i;
-
-    int main() 
-    {
-        f();
-        return 1;
-    }
+        void main() {
+          boolean a;
+          int b;
+          if (b < 100)
+            do
+              b = b + 1;
+            while(a);
+        }
+      

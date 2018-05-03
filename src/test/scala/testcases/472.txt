@@ -5,7 +5,7 @@
       return result;
     }
 
-    int main() {
+    void main() {
       int abc;
       abc = tich(5.5, 2.5);
     }

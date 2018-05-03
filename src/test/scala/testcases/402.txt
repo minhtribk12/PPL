@@ -1,1 +1,4 @@
-void main () {getInt(3);}
+
+        void test(int a, float a){}
+        void main(){}
+      

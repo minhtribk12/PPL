@@ -1,104 +1,4 @@
 Run starting. Expected test count is: 0
-AstSuite:
-- a simple program 1
-- another simple program 2
-- a simple program 3
-- test dangling if 4
-- test funcdecl 5
-- test funcdecl 6
-- test funcdecl 7
-- test funcdecl 8
-- test funcdecl 9
-- test funcdecl 10
-- test funcdecl 11
-- test funcdecl 12
-- test funcdecl 13
-- test funcdecl 14
-- test Array element 15
-- test Array element 16
-- test if statement 17
-- test priority 18
-- test funcall 19
-- test complex program 20
-- test funcdeclare 21
-- test var declare 22
-- test funcdeclare 23
-- test for statement 24
-- test for statement 25
-- test for statement 26
-- test for statement 27
-- test func + var declare 28
-- test func + var decalare 29
-- test for 30
-- test boolean function 31
-- test void function 32
-- test void function 33
-- test void function 34
-- test do while 35
-- test boolean function 36
-- test literal 37
-- test do while 38
-- test multi decalare 39
-- test multi decalre 40
-- test multi decalare 41
-- test var decalre 42
-- test var declare 43
-- test var declare 44
-- test var decalare 45
-- test if statement 46
-- test do while 47
-- test for statement 48
-- test break statemnet 49
-- test continue statement 50
-- test return 51
-- test return statement 52
-- test return statement 53
-- test funcall 54
-- test funcall 55
-- test block statement 56
-- test block statement 57
-- test block statement 58
-- test block statement 59
-- test block statement 60
-- test complex program 61
-- test complex program 62
-- test Stringlit 63
-- test Stringlit 64
-- test Stringlit 65
-- test Stringlit 66
-- test complex program 67
-- test priority 68
-- test associate 69
-- test complex statement 70
-- test complex statement 71
-- test complex program 72
-- test complex program 73
-- test complex program 74
-- test complex program 75
-- test complex program 76
-- test complex program 77
-- test complex program 78
-- test complex program 79
-- test complex program 80
-- test for statement 81
-- test for statement 82
-- test for statement 83
-- test for statement 84
-- test for statement 85
-- test complex program 86
-- test complex program 87
-- test complex program 88
-- test if statement 89
-- test complex program 90
-- test Stringlit 91
-- test complex program 92
-- test for statement 93
-- test Stringlit 94
-- test complex program 95
-- test complex program 96
-- test complex program 97
-- test complex program 98
-- test complex program 99
 LexerSuite:
 - Blank characters 1
 - Block comment
@@ -200,6 +100,171 @@ LexerSuite:
 - Keywords 19
 - Keywords 20
 - Keywords 21
+CheckerSuite:
+- Redeclared Variable: a
+- Redeclared Parameter: a
+- Redeclared function: test
+- Redeclared variable inside a function
+- Redeclared variable inside a function 2
+- Type mismatch string to int
+- Type mismatch float to int
+- Type Mismatch In Expression: getInt
+- Type Mismatch In Expression: putIntLn
+- Check with AST
+- Check with AST putIntLn with float
+- Type mismatch float to string
+- Type mismatch not int
+- Type mismatch not boolean
+- Type mismatch not boolean 2
+- if statement wrong expression
+- Unreachable function
+- break statement outside for loop
+- continue statement outside for loop
+- break statement inside for loop
+- break statement outside while loop
+- continue statement outside while loop
+- break statement inside while loop
+- continue statement inside while loop
+- call function with wrong parameter
+- Mismatch return statement
+- Mismatch return statement 2
+- Mismatch return statement 3
+- Unreachable statement return
+- Unreachable statement return 2
+- Unreachable statement return 3
+- Unreachable statement return 4
+- Unreachable statement return 5
+- Unreachable statement return 6
+- Function not return
+- Function has return
+- Function has return in body
+- Function has return in if
+- Call function
+- Redeclare a global variable
+- Unreachable statement child function
+- return in if/else
+- return in if without else
+- Unreachable many Functions *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 446) was false (CheckerSuite.scala:2971)
+- Return array pointer 2
+- Redeclare function name as var name
+- Test array type
+- Invalid type in array pointer (function call)
+- Function call return array pointer type
+- Type mismatch in function call (return array pointer type)
+- Binary operator ! and ||
+- Complex assignment expression
+- Complex assignment expression 2
+- Complex assignment expression float type
+- Complex program
+- Complex program 2
+- Complex program 3
+- Complex program 4
+- Complex program 5
+- Complex program 6
+- Complex program 7
+- Complex program 8
+AstSuite:
+- a simple program 1
+- another simple program 2
+- a simple program 3
+- test dangling if 4
+- test funcdecl 5
+- test funcdecl 6
+- test funcdecl 7
+- test funcdecl 8
+- test funcdecl 9
+- test funcdecl 10
+- test funcdecl 11
+- test funcdecl 12
+- test funcdecl 13
+- test funcdecl 14
+- test Array element 15
+- test Array element 16
+- test if statement 17
+- test priority 18
+- test funcall 19
+- test complex program 20
+- test funcdeclare 21
+- test var declare 22
+- test funcdeclare 23
+- test for statement 24
+- test for statement 25
+- test for statement 26
+- test for statement 27
+- test func + var declare 28
+- test func + var decalare 29
+- test for 30
+- test boolean function 31
+- test void function 32
+- test void function 33
+- test void function 34
+- test do while 35
+- test boolean function 36
+- test literal 37
+- test do while 38
+- test multi decalare 39
+- test multi decalre 40
+- test multi decalare 41
+- test var decalre 42
+- test var declare 43
+- test var declare 44
+- test var decalare 45
+- test if statement 46
+- test do while 47
+- test for statement 48
+- test break statemnet 49
+- test continue statement 50
+- test return 51
+- test return statement 52
+- test return statement 53
+- test funcall 54
+- test funcall 55
+- test block statement 56
+- test block statement 57
+- test block statement 58
+- test block statement 59
+- test block statement 60
+- test complex program 61
+- test complex program 62
+- test Stringlit 63
+- test Stringlit 64
+- test Stringlit 65
+- test Stringlit 66
+- test complex program 67
+- test priority 68
+- test associate 69
+- test complex statement 70
+- test complex statement 71
+- test complex program 72
+- test complex program 73
+- test complex program 74
+- test complex program 75
+- test complex program 76
+- test complex program 77
+- test complex program 78
+- test complex program 79
+- test complex program 80
+- test for statement 81
+- test for statement 82
+- test for statement 83
+- test for statement 84
+- test for statement 85
+- test complex program 86
+- test complex program 87
+- test complex program 88
+- test if statement 89
+- test complex program 90
+- test Stringlit 91
+- test complex program 92
+- test for statement 93
+- test Stringlit 94
+- test complex program 95
+- test complex program 96
+- test complex program 97
+- test complex program 98
+- test complex program 99
+- test complex program 100
 ParserSuite:
 - Program contains declarations
 - Program contains declarations 2
@@ -301,110 +366,8 @@ ParserSuite:
 - Function and variable declarations error 1
 - Function and variable declarations error 2
 - Function and variable declarations error 3
-- test complex program 100
-CheckerSuite:
-- Undeclared Function
-- Type Mismatch In Expression: getInt
-- Type Mismatch In Expression: putIntLn
-- Check with AST
-- Check with AST putIntLn with float
-- Undeclared Variable
-- Undeclared Variable 2
-- Undeclared Variable 3
-- Type Mismatch In Statement 11
-- Function Not Return 12
-- Type Mismatch In Expression 13
-- Type Mismatch In Expression 14
-- Type Mismatch In Expression 15
-- Type Mismatch In Expression 16
-- Function Not Return 17
-- Function Not Return 18
-- Break Not In Loop 19
-- Type Mismatch In Expression 110
-- Type Mismatch In Statement 111
-- Type Mismatch In Statement 112
-- Type Mismatch In Statement 113
-- Type Mismatch In Statement 114
-- cUndeclared Function 115
-- Undeclared Function 116
-- Undeclared Function 117
-- Undeclared Function 118
-- Undeclared Function 119
-- Type Mismatch In Expression 120
-- Redeclared Parameter 121
-- Redeclared Variable 122
-- Redeclared Variable 123
-- No Entry Point 124
-- Type Mismatch In Statement 125
-- Type Mismatch In Expression 126
-- Undeclared Identifier 127
-- Type Mismatch In Expression 128
-- Continue Not In Loop 129
-- Continue Not In Loop 130
-- Continue Not In Loop 131
-- Continue Not In Loop 132
-- Continue Not In Loop 133
-- No Entry Point 134
-- Undeclared Identifier 135
-- Undeclared Identifier 136
-- Undeclared Identifier 137
-- Undeclared Identifier 138
-- Redeclared Parameter 139
-- Redeclared Variable 140
-- Redeclared Variable 141
-- No Entry Point 142
-- Type Mismatch In Expression 143
-- Type Mismatch In Statement 144
-- Type Mismatch In Statement 145
-- Type Mismatch In Statement 146
-- Type Mismatch In Statement 147
-- Function Not Return 148
-- Type Mismatch In Expression 149
-- Redeclared Variable 150
-- Redeclared Variable 151
-- Redeclared Variable 152
-- Redeclared Variable 153
-- Redeclared Variable 154
-- Type Mismatch In Statement 155
-- Type Mismatch In Statement 156
-- Undeclared Identifier 157
-- Undeclared Identifier 158
-- Undeclared Identifier 159
-- Undeclared Identifier 160
-- Undeclared Function 161
-- Undeclared Function 162
-- Type Mismatch In Expression 163
-- Type Mismatch In Expression 164
-- Type Mismatch In Expression 165
-- Type Mismatch In Expression 166
-- Type Mismatch In Expression 167
-- Redeclared Parameter 168
-- Function Not Return 169
-- Redeclared Parameter 170
-- Redeclared Variable 171
-- Redeclared Variable 172
-- Redeclared Variable 173
-- No Entry Point 174
-- Redeclared Variable 175
-- Type Mismatch In Statement 176
-- Undeclared Identifier 177
-- Undeclared Identifier 178
-- Undeclared Identifier 179
-- Undeclared Identifier 180
-- Undeclared Function 181
-- Undeclared Function 182
-- Type Mismatch In Expression 183
-- Type Mismatch In Expression 184
-- Type Mismatch In Expression 185
-- Type Mismatch In Expression 186
-- Type Mismatch In Expression 187
-- Type Mismatch In Expression 188
-- Undeclared Identifier 189
-- Redeclared Parameter 190
-- Unreachable Function 191
-- Unreachable Statement 192
-Run completed in 4 seconds, 188 milliseconds.
-Total number of tests run: 400
+Run completed in 2 seconds, 642 milliseconds.
+Total number of tests run: 362
 Suites: completed 4, aborted 0
-Tests: succeeded 400, failed 0, canceled 0, ignored 0, pending 0
-All tests passed.
+Tests: succeeded 361, failed 1, canceled 0, ignored 0, pending 0
+*** 1 TEST FAILED ***

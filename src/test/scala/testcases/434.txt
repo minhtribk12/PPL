@@ -1,7 +1,13 @@
 
-    float hehe(){ return 10.; }
-    int short_testcase1(){
-      int a;
-      a = hehe();
-      return 0;
-    }
+        void main(){
+          int a;
+          int b;
+          b = 0;
+          do{
+            b = b + a;
+            return;
+          }
+          while (a < 100);
+          b = b + 2;
+        }
+      

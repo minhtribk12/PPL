@@ -1,5 +1,5 @@
 
-    int main() {
+    int test() {
       int a;
       int b;
       int c;
@@ -9,7 +9,7 @@
               if (c == 2)
                   d = 4;
     }
-
+    void main(){}
     int test(int a, int b, int c, int d, int bug, int f, int bug){
       if (a>2.1)
             if (b<-1)
